@@ -1,0 +1,872 @@
+2025-09-19 15:30:05 | [pearl_point_env] Logging to /Users/paulnitschke/Desktop/projects/geo_meta_rl/data/local/experiment/pearl_point_env
+2025-09-19 15:30:06 | [pearl_point_env] Obtaining samples...
+2025-09-19 15:30:08 | [pearl_point_env] epoch #0 | Training...
+2025-09-19 15:31:21 | [pearl_point_env] epoch #0 | Evaluating...
+2025-09-19 15:31:21 | [pearl_point_env] epoch #0 | Sampling for adapation and meta-testing...
+2025-09-19 15:31:22 | [pearl_point_env] epoch #0 | Finished meta-testing...
+2025-09-19 15:31:25 | [pearl_point_env] epoch #0 | Saving snapshot...
+2025-09-19 15:31:25 | [pearl_point_env] epoch #0 | Saved
+2025-09-19 15:31:25 | [pearl_point_env] epoch #0 | Time 78.69 s
+2025-09-19 15:31:25 | [pearl_point_env] epoch #0 | EpochTime 78.69 s
+-------------------------------------------------  ---------
+MetaTest/Average/AverageDiscountedReturn            -93.1258
+MetaTest/Average/AverageReturn                      -93.1258
+MetaTest/Average/Iteration                            0
+MetaTest/Average/MaxReturn                          -44.4042
+MetaTest/Average/MinReturn                         -119.874
+MetaTest/Average/NumEpisodes                          5
+MetaTest/Average/StdReturn                           25.811
+MetaTest/Average/SuccessRate                          0
+MetaTest/Average/TerminationRate                      0
+MetaTest/__unnamed_task__/AverageDiscountedReturn   -93.1258
+MetaTest/__unnamed_task__/AverageReturn             -93.1258
+MetaTest/__unnamed_task__/Iteration                   0
+MetaTest/__unnamed_task__/MaxReturn                 -44.4042
+MetaTest/__unnamed_task__/MinReturn                -119.874
+MetaTest/__unnamed_task__/NumEpisodes                 5
+MetaTest/__unnamed_task__/StdReturn                  25.811
+MetaTest/__unnamed_task__/SuccessRate                 0
+MetaTest/__unnamed_task__/TerminationRate             0
+TotalEnvSteps                                      7994
+-------------------------------------------------  ---------
+2025-09-19 15:31:26 | [pearl_point_env] epoch #1 | Training...
+2025-09-19 15:32:40 | [pearl_point_env] epoch #1 | Evaluating...
+2025-09-19 15:32:40 | [pearl_point_env] epoch #1 | Sampling for adapation and meta-testing...
+2025-09-19 15:32:41 | [pearl_point_env] epoch #1 | Finished meta-testing...
+2025-09-19 15:32:43 | [pearl_point_env] epoch #1 | Saving snapshot...
+2025-09-19 15:32:43 | [pearl_point_env] epoch #1 | Saved
+2025-09-19 15:32:43 | [pearl_point_env] epoch #1 | Time 157.38 s
+2025-09-19 15:32:43 | [pearl_point_env] epoch #1 | EpochTime 78.69 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -72.3575
+MetaTest/Average/AverageReturn                       -72.3575
+MetaTest/Average/Iteration                             1
+MetaTest/Average/MaxReturn                            -7.64368
+MetaTest/Average/MinReturn                          -315.478
+MetaTest/Average/NumEpisodes                           9
+MetaTest/Average/StdReturn                            95.2579
+MetaTest/Average/SuccessRate                           0.444444
+MetaTest/Average/TerminationRate                       0.444444
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -72.3575
+MetaTest/__unnamed_task__/AverageReturn              -72.3575
+MetaTest/__unnamed_task__/Iteration                    1
+MetaTest/__unnamed_task__/MaxReturn                   -7.64368
+MetaTest/__unnamed_task__/MinReturn                 -315.478
+MetaTest/__unnamed_task__/NumEpisodes                  9
+MetaTest/__unnamed_task__/StdReturn                   95.2579
+MetaTest/__unnamed_task__/SuccessRate                  0.444444
+MetaTest/__unnamed_task__/TerminationRate              0.444444
+TotalEnvSteps                                      11190
+-------------------------------------------------  ------------
+2025-09-19 15:32:44 | [pearl_point_env] epoch #2 | Training...
+2025-09-19 15:34:02 | [pearl_point_env] epoch #2 | Evaluating...
+2025-09-19 15:34:02 | [pearl_point_env] epoch #2 | Sampling for adapation and meta-testing...
+2025-09-19 15:34:03 | [pearl_point_env] epoch #2 | Finished meta-testing...
+2025-09-19 15:34:05 | [pearl_point_env] epoch #2 | Saving snapshot...
+2025-09-19 15:34:05 | [pearl_point_env] epoch #2 | Saved
+2025-09-19 15:34:05 | [pearl_point_env] epoch #2 | Time 239.04 s
+2025-09-19 15:34:05 | [pearl_point_env] epoch #2 | EpochTime 81.65 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -11.5624
+MetaTest/Average/AverageReturn                       -11.5624
+MetaTest/Average/Iteration                             2
+MetaTest/Average/MaxReturn                            -3.01027
+MetaTest/Average/MinReturn                           -51.1438
+MetaTest/Average/NumEpisodes                          22
+MetaTest/Average/StdReturn                            13.7781
+MetaTest/Average/SuccessRate                           0.863636
+MetaTest/Average/TerminationRate                       0.863636
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -11.5624
+MetaTest/__unnamed_task__/AverageReturn              -11.5624
+MetaTest/__unnamed_task__/Iteration                    2
+MetaTest/__unnamed_task__/MaxReturn                   -3.01027
+MetaTest/__unnamed_task__/MinReturn                  -51.1438
+MetaTest/__unnamed_task__/NumEpisodes                 22
+MetaTest/__unnamed_task__/StdReturn                   13.7781
+MetaTest/__unnamed_task__/SuccessRate                  0.863636
+MetaTest/__unnamed_task__/TerminationRate              0.863636
+TotalEnvSteps                                      14245
+-------------------------------------------------  ------------
+2025-09-19 15:34:06 | [pearl_point_env] epoch #3 | Training...
+2025-09-19 15:35:22 | [pearl_point_env] epoch #3 | Evaluating...
+2025-09-19 15:35:22 | [pearl_point_env] epoch #3 | Sampling for adapation and meta-testing...
+2025-09-19 15:35:24 | [pearl_point_env] epoch #3 | Finished meta-testing...
+2025-09-19 15:35:25 | [pearl_point_env] epoch #3 | Saving snapshot...
+2025-09-19 15:35:25 | [pearl_point_env] epoch #3 | Saved
+2025-09-19 15:35:25 | [pearl_point_env] epoch #3 | Time 319.31 s
+2025-09-19 15:35:25 | [pearl_point_env] epoch #3 | EpochTime 80.27 s
+-------------------------------------------------  ----------
+MetaTest/Average/AverageDiscountedReturn            -101.468
+MetaTest/Average/AverageReturn                      -101.468
+MetaTest/Average/Iteration                             3
+MetaTest/Average/MaxReturn                           -49.1607
+MetaTest/Average/MinReturn                          -163.526
+MetaTest/Average/NumEpisodes                           5
+MetaTest/Average/StdReturn                            38.7098
+MetaTest/Average/SuccessRate                           0
+MetaTest/Average/TerminationRate                       0
+MetaTest/__unnamed_task__/AverageDiscountedReturn   -101.468
+MetaTest/__unnamed_task__/AverageReturn             -101.468
+MetaTest/__unnamed_task__/Iteration                    3
+MetaTest/__unnamed_task__/MaxReturn                  -49.1607
+MetaTest/__unnamed_task__/MinReturn                 -163.526
+MetaTest/__unnamed_task__/NumEpisodes                  5
+MetaTest/__unnamed_task__/StdReturn                   38.7098
+MetaTest/__unnamed_task__/SuccessRate                  0
+MetaTest/__unnamed_task__/TerminationRate              0
+TotalEnvSteps                                      17314
+-------------------------------------------------  ----------
+2025-09-19 15:35:26 | [pearl_point_env] epoch #4 | Training...
+2025-09-19 15:36:41 | [pearl_point_env] epoch #4 | Evaluating...
+2025-09-19 15:36:41 | [pearl_point_env] epoch #4 | Sampling for adapation and meta-testing...
+2025-09-19 15:36:43 | [pearl_point_env] epoch #4 | Finished meta-testing...
+2025-09-19 15:36:44 | [pearl_point_env] epoch #4 | Saving snapshot...
+2025-09-19 15:36:45 | [pearl_point_env] epoch #4 | Saved
+2025-09-19 15:36:45 | [pearl_point_env] epoch #4 | Time 398.49 s
+2025-09-19 15:36:45 | [pearl_point_env] epoch #4 | EpochTime 79.17 s
+-------------------------------------------------  -----------
+MetaTest/Average/AverageDiscountedReturn             -45.1131
+MetaTest/Average/AverageReturn                       -45.1131
+MetaTest/Average/Iteration                             4
+MetaTest/Average/MaxReturn                            -3.12583
+MetaTest/Average/MinReturn                          -342.037
+MetaTest/Average/NumEpisodes                          20
+MetaTest/Average/StdReturn                            95.9953
+MetaTest/Average/SuccessRate                           0.85
+MetaTest/Average/TerminationRate                       0.85
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -45.1131
+MetaTest/__unnamed_task__/AverageReturn              -45.1131
+MetaTest/__unnamed_task__/Iteration                    4
+MetaTest/__unnamed_task__/MaxReturn                   -3.12583
+MetaTest/__unnamed_task__/MinReturn                 -342.037
+MetaTest/__unnamed_task__/NumEpisodes                 20
+MetaTest/__unnamed_task__/StdReturn                   95.9953
+MetaTest/__unnamed_task__/SuccessRate                  0.85
+MetaTest/__unnamed_task__/TerminationRate              0.85
+TotalEnvSteps                                      20334
+-------------------------------------------------  -----------
+2025-09-19 15:36:45 | [pearl_point_env] epoch #5 | Training...
+2025-09-19 15:37:56 | [pearl_point_env] epoch #5 | Evaluating...
+2025-09-19 15:37:56 | [pearl_point_env] epoch #5 | Sampling for adapation and meta-testing...
+2025-09-19 15:37:58 | [pearl_point_env] epoch #5 | Finished meta-testing...
+2025-09-19 15:38:00 | [pearl_point_env] epoch #5 | Saving snapshot...
+2025-09-19 15:38:00 | [pearl_point_env] epoch #5 | Saved
+2025-09-19 15:38:00 | [pearl_point_env] epoch #5 | Time 473.55 s
+2025-09-19 15:38:00 | [pearl_point_env] epoch #5 | EpochTime 75.05 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -87.1473
+MetaTest/Average/AverageReturn                       -87.1473
+MetaTest/Average/Iteration                             5
+MetaTest/Average/MaxReturn                            -7.13672
+MetaTest/Average/MinReturn                          -201.739
+MetaTest/Average/NumEpisodes                           6
+MetaTest/Average/StdReturn                            69.7544
+MetaTest/Average/SuccessRate                           0.333333
+MetaTest/Average/TerminationRate                       0.333333
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -87.1473
+MetaTest/__unnamed_task__/AverageReturn              -87.1473
+MetaTest/__unnamed_task__/Iteration                    5
+MetaTest/__unnamed_task__/MaxReturn                   -7.13672
+MetaTest/__unnamed_task__/MinReturn                 -201.739
+MetaTest/__unnamed_task__/NumEpisodes                  6
+MetaTest/__unnamed_task__/StdReturn                   69.7544
+MetaTest/__unnamed_task__/SuccessRate                  0.333333
+MetaTest/__unnamed_task__/TerminationRate              0.333333
+TotalEnvSteps                                      23403
+-------------------------------------------------  ------------
+2025-09-19 15:38:00 | [pearl_point_env] epoch #6 | Training...
+2025-09-19 15:39:15 | [pearl_point_env] epoch #6 | Evaluating...
+2025-09-19 15:39:15 | [pearl_point_env] epoch #6 | Sampling for adapation and meta-testing...
+2025-09-19 15:39:17 | [pearl_point_env] epoch #6 | Finished meta-testing...
+2025-09-19 15:39:19 | [pearl_point_env] epoch #6 | Saving snapshot...
+2025-09-19 15:39:19 | [pearl_point_env] epoch #6 | Saved
+2025-09-19 15:39:19 | [pearl_point_env] epoch #6 | Time 553.04 s
+2025-09-19 15:39:19 | [pearl_point_env] epoch #6 | EpochTime 79.48 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -97.6848
+MetaTest/Average/AverageReturn                       -97.6848
+MetaTest/Average/Iteration                             6
+MetaTest/Average/MaxReturn                            -5.13091
+MetaTest/Average/MinReturn                          -323.515
+MetaTest/Average/NumEpisodes                          11
+MetaTest/Average/StdReturn                           134.06
+MetaTest/Average/SuccessRate                           0.636364
+MetaTest/Average/TerminationRate                       0.636364
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -97.6848
+MetaTest/__unnamed_task__/AverageReturn              -97.6848
+MetaTest/__unnamed_task__/Iteration                    6
+MetaTest/__unnamed_task__/MaxReturn                   -5.13091
+MetaTest/__unnamed_task__/MinReturn                 -323.515
+MetaTest/__unnamed_task__/NumEpisodes                 11
+MetaTest/__unnamed_task__/StdReturn                  134.06
+MetaTest/__unnamed_task__/SuccessRate                  0.636364
+MetaTest/__unnamed_task__/TerminationRate              0.636364
+TotalEnvSteps                                      26403
+-------------------------------------------------  ------------
+2025-09-19 15:39:20 | [pearl_point_env] epoch #7 | Training...
+2025-09-19 15:40:32 | [pearl_point_env] epoch #7 | Evaluating...
+2025-09-19 15:40:32 | [pearl_point_env] epoch #7 | Sampling for adapation and meta-testing...
+2025-09-19 15:40:33 | [pearl_point_env] epoch #7 | Finished meta-testing...
+2025-09-19 15:40:35 | [pearl_point_env] epoch #7 | Saving snapshot...
+2025-09-19 15:40:35 | [pearl_point_env] epoch #7 | Saved
+2025-09-19 15:40:35 | [pearl_point_env] epoch #7 | Time 629.35 s
+2025-09-19 15:40:35 | [pearl_point_env] epoch #7 | EpochTime 76.31 s
+-------------------------------------------------  ----------
+MetaTest/Average/AverageDiscountedReturn            -137.359
+MetaTest/Average/AverageReturn                      -137.359
+MetaTest/Average/Iteration                             7
+MetaTest/Average/MaxReturn                           -57.4928
+MetaTest/Average/MinReturn                          -259.159
+MetaTest/Average/NumEpisodes                           5
+MetaTest/Average/StdReturn                            74.4502
+MetaTest/Average/SuccessRate                           0
+MetaTest/Average/TerminationRate                       0
+MetaTest/__unnamed_task__/AverageDiscountedReturn   -137.359
+MetaTest/__unnamed_task__/AverageReturn             -137.359
+MetaTest/__unnamed_task__/Iteration                    7
+MetaTest/__unnamed_task__/MaxReturn                  -57.4928
+MetaTest/__unnamed_task__/MinReturn                 -259.159
+MetaTest/__unnamed_task__/NumEpisodes                  5
+MetaTest/__unnamed_task__/StdReturn                   74.4502
+MetaTest/__unnamed_task__/SuccessRate                  0
+MetaTest/__unnamed_task__/TerminationRate              0
+TotalEnvSteps                                      29403
+-------------------------------------------------  ----------
+2025-09-19 15:40:36 | [pearl_point_env] epoch #8 | Training...
+2025-09-19 15:41:46 | [pearl_point_env] epoch #8 | Evaluating...
+2025-09-19 15:41:46 | [pearl_point_env] epoch #8 | Sampling for adapation and meta-testing...
+2025-09-19 15:41:47 | [pearl_point_env] epoch #8 | Finished meta-testing...
+2025-09-19 15:41:49 | [pearl_point_env] epoch #8 | Saving snapshot...
+2025-09-19 15:41:49 | [pearl_point_env] epoch #8 | Saved
+2025-09-19 15:41:49 | [pearl_point_env] epoch #8 | Time 702.95 s
+2025-09-19 15:41:49 | [pearl_point_env] epoch #8 | EpochTime 73.59 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -45.963
+MetaTest/Average/AverageReturn                       -45.963
+MetaTest/Average/Iteration                             8
+MetaTest/Average/MaxReturn                            -3.55001
+MetaTest/Average/MinReturn                          -302.578
+MetaTest/Average/NumEpisodes                          17
+MetaTest/Average/StdReturn                            88.204
+MetaTest/Average/SuccessRate                           0.823529
+MetaTest/Average/TerminationRate                       0.823529
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -45.963
+MetaTest/__unnamed_task__/AverageReturn              -45.963
+MetaTest/__unnamed_task__/Iteration                    8
+MetaTest/__unnamed_task__/MaxReturn                   -3.55001
+MetaTest/__unnamed_task__/MinReturn                 -302.578
+MetaTest/__unnamed_task__/NumEpisodes                 17
+MetaTest/__unnamed_task__/StdReturn                   88.204
+MetaTest/__unnamed_task__/SuccessRate                  0.823529
+MetaTest/__unnamed_task__/TerminationRate              0.823529
+TotalEnvSteps                                      32417
+-------------------------------------------------  ------------
+2025-09-19 15:41:50 | [pearl_point_env] epoch #9 | Training...
+2025-09-19 15:42:59 | [pearl_point_env] epoch #9 | Evaluating...
+2025-09-19 15:42:59 | [pearl_point_env] epoch #9 | Sampling for adapation and meta-testing...
+2025-09-19 15:43:00 | [pearl_point_env] epoch #9 | Finished meta-testing...
+2025-09-19 15:43:02 | [pearl_point_env] epoch #9 | Saving snapshot...
+2025-09-19 15:43:02 | [pearl_point_env] epoch #9 | Saved
+2025-09-19 15:43:02 | [pearl_point_env] epoch #9 | Time 776.04 s
+2025-09-19 15:43:02 | [pearl_point_env] epoch #9 | EpochTime 73.08 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -73.0622
+MetaTest/Average/AverageReturn                       -73.0622
+MetaTest/Average/Iteration                             9
+MetaTest/Average/MaxReturn                            -4.4343
+MetaTest/Average/MinReturn                          -243.173
+MetaTest/Average/NumEpisodes                           7
+MetaTest/Average/StdReturn                            74.3682
+MetaTest/Average/SuccessRate                           0.285714
+MetaTest/Average/TerminationRate                       0.285714
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -73.0622
+MetaTest/__unnamed_task__/AverageReturn              -73.0622
+MetaTest/__unnamed_task__/Iteration                    9
+MetaTest/__unnamed_task__/MaxReturn                   -4.4343
+MetaTest/__unnamed_task__/MinReturn                 -243.173
+MetaTest/__unnamed_task__/NumEpisodes                  7
+MetaTest/__unnamed_task__/StdReturn                   74.3682
+MetaTest/__unnamed_task__/SuccessRate                  0.285714
+MetaTest/__unnamed_task__/TerminationRate              0.285714
+TotalEnvSteps                                      35417
+-------------------------------------------------  ------------
+2025-09-19 15:43:03 | [pearl_point_env] epoch #10 | Training...
+2025-09-19 15:44:20 | [pearl_point_env] epoch #10 | Evaluating...
+2025-09-19 15:44:20 | [pearl_point_env] epoch #10 | Sampling for adapation and meta-testing...
+2025-09-19 15:44:21 | [pearl_point_env] epoch #10 | Finished meta-testing...
+2025-09-19 15:44:23 | [pearl_point_env] epoch #10 | Saving snapshot...
+2025-09-19 15:44:23 | [pearl_point_env] epoch #10 | Saved
+2025-09-19 15:44:23 | [pearl_point_env] epoch #10 | Time 857.33 s
+2025-09-19 15:44:23 | [pearl_point_env] epoch #10 | EpochTime 81.28 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -93.179
+MetaTest/Average/AverageReturn                       -93.179
+MetaTest/Average/Iteration                            10
+MetaTest/Average/MaxReturn                            -5.20694
+MetaTest/Average/MinReturn                          -369.412
+MetaTest/Average/NumEpisodes                           9
+MetaTest/Average/StdReturn                           126.245
+MetaTest/Average/SuccessRate                           0.555556
+MetaTest/Average/TerminationRate                       0.555556
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -93.179
+MetaTest/__unnamed_task__/AverageReturn              -93.179
+MetaTest/__unnamed_task__/Iteration                   10
+MetaTest/__unnamed_task__/MaxReturn                   -5.20694
+MetaTest/__unnamed_task__/MinReturn                 -369.412
+MetaTest/__unnamed_task__/NumEpisodes                  9
+MetaTest/__unnamed_task__/StdReturn                  126.245
+MetaTest/__unnamed_task__/SuccessRate                  0.555556
+MetaTest/__unnamed_task__/TerminationRate              0.555556
+TotalEnvSteps                                      38436
+-------------------------------------------------  ------------
+2025-09-19 15:44:24 | [pearl_point_env] epoch #11 | Training...
+2025-09-19 15:45:48 | [pearl_point_env] epoch #11 | Evaluating...
+2025-09-19 15:45:48 | [pearl_point_env] epoch #11 | Sampling for adapation and meta-testing...
+2025-09-19 15:45:49 | [pearl_point_env] epoch #11 | Finished meta-testing...
+2025-09-19 15:45:51 | [pearl_point_env] epoch #11 | Saving snapshot...
+2025-09-19 15:45:51 | [pearl_point_env] epoch #11 | Saved
+2025-09-19 15:45:51 | [pearl_point_env] epoch #11 | Time 945.02 s
+2025-09-19 15:45:51 | [pearl_point_env] epoch #11 | EpochTime 87.68 s
+-------------------------------------------------  -----------
+MetaTest/Average/AverageDiscountedReturn             -31.7618
+MetaTest/Average/AverageReturn                       -31.7618
+MetaTest/Average/Iteration                            11
+MetaTest/Average/MaxReturn                            -4.91137
+MetaTest/Average/MinReturn                          -229.737
+MetaTest/Average/NumEpisodes                          16
+MetaTest/Average/StdReturn                            57.2018
+MetaTest/Average/SuccessRate                           0.75
+MetaTest/Average/TerminationRate                       0.75
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -31.7618
+MetaTest/__unnamed_task__/AverageReturn              -31.7618
+MetaTest/__unnamed_task__/Iteration                   11
+MetaTest/__unnamed_task__/MaxReturn                   -4.91137
+MetaTest/__unnamed_task__/MinReturn                 -229.737
+MetaTest/__unnamed_task__/NumEpisodes                 16
+MetaTest/__unnamed_task__/StdReturn                   57.2018
+MetaTest/__unnamed_task__/SuccessRate                  0.75
+MetaTest/__unnamed_task__/TerminationRate              0.75
+TotalEnvSteps                                      41451
+-------------------------------------------------  -----------
+2025-09-19 15:45:52 | [pearl_point_env] epoch #12 | Training...
+2025-09-19 15:47:07 | [pearl_point_env] epoch #12 | Evaluating...
+2025-09-19 15:47:07 | [pearl_point_env] epoch #12 | Sampling for adapation and meta-testing...
+2025-09-19 15:47:08 | [pearl_point_env] epoch #12 | Finished meta-testing...
+2025-09-19 15:47:10 | [pearl_point_env] epoch #12 | Saving snapshot...
+2025-09-19 15:47:10 | [pearl_point_env] epoch #12 | Saved
+2025-09-19 15:47:10 | [pearl_point_env] epoch #12 | Time 1023.90 s
+2025-09-19 15:47:10 | [pearl_point_env] epoch #12 | EpochTime 78.88 s
+-------------------------------------------------  ----------
+MetaTest/Average/AverageDiscountedReturn             -54.9319
+MetaTest/Average/AverageReturn                       -54.9319
+MetaTest/Average/Iteration                            12
+MetaTest/Average/MaxReturn                           -13.6125
+MetaTest/Average/MinReturn                          -126.421
+MetaTest/Average/NumEpisodes                           8
+MetaTest/Average/StdReturn                            45.0231
+MetaTest/Average/SuccessRate                           0.5
+MetaTest/Average/TerminationRate                       0.5
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -54.9319
+MetaTest/__unnamed_task__/AverageReturn              -54.9319
+MetaTest/__unnamed_task__/Iteration                   12
+MetaTest/__unnamed_task__/MaxReturn                  -13.6125
+MetaTest/__unnamed_task__/MinReturn                 -126.421
+MetaTest/__unnamed_task__/NumEpisodes                  8
+MetaTest/__unnamed_task__/StdReturn                   45.0231
+MetaTest/__unnamed_task__/SuccessRate                  0.5
+MetaTest/__unnamed_task__/TerminationRate              0.5
+TotalEnvSteps                                      44503
+-------------------------------------------------  ----------
+2025-09-19 15:47:11 | [pearl_point_env] epoch #13 | Training...
+2025-09-19 15:48:24 | [pearl_point_env] epoch #13 | Evaluating...
+2025-09-19 15:48:24 | [pearl_point_env] epoch #13 | Sampling for adapation and meta-testing...
+2025-09-19 15:48:25 | [pearl_point_env] epoch #13 | Finished meta-testing...
+2025-09-19 15:48:27 | [pearl_point_env] epoch #13 | Saving snapshot...
+2025-09-19 15:48:27 | [pearl_point_env] epoch #13 | Saved
+2025-09-19 15:48:27 | [pearl_point_env] epoch #13 | Time 1100.95 s
+2025-09-19 15:48:27 | [pearl_point_env] epoch #13 | EpochTime 77.04 s
+-------------------------------------------------  ----------
+MetaTest/Average/AverageDiscountedReturn            -103.263
+MetaTest/Average/AverageReturn                      -103.263
+MetaTest/Average/Iteration                            13
+MetaTest/Average/MaxReturn                           -90.654
+MetaTest/Average/MinReturn                          -121.52
+MetaTest/Average/NumEpisodes                           5
+MetaTest/Average/StdReturn                            11.5041
+MetaTest/Average/SuccessRate                           0
+MetaTest/Average/TerminationRate                       0
+MetaTest/__unnamed_task__/AverageDiscountedReturn   -103.263
+MetaTest/__unnamed_task__/AverageReturn             -103.263
+MetaTest/__unnamed_task__/Iteration                   13
+MetaTest/__unnamed_task__/MaxReturn                  -90.654
+MetaTest/__unnamed_task__/MinReturn                 -121.52
+MetaTest/__unnamed_task__/NumEpisodes                  5
+MetaTest/__unnamed_task__/StdReturn                   11.5041
+MetaTest/__unnamed_task__/SuccessRate                  0
+MetaTest/__unnamed_task__/TerminationRate              0
+TotalEnvSteps                                      47590
+-------------------------------------------------  ----------
+2025-09-19 15:48:28 | [pearl_point_env] epoch #14 | Training...
+2025-09-19 15:49:41 | [pearl_point_env] epoch #14 | Evaluating...
+2025-09-19 15:49:41 | [pearl_point_env] epoch #14 | Sampling for adapation and meta-testing...
+2025-09-19 15:49:42 | [pearl_point_env] epoch #14 | Finished meta-testing...
+2025-09-19 15:49:44 | [pearl_point_env] epoch #14 | Saving snapshot...
+2025-09-19 15:49:44 | [pearl_point_env] epoch #14 | Saved
+2025-09-19 15:49:44 | [pearl_point_env] epoch #14 | Time 1178.27 s
+2025-09-19 15:49:44 | [pearl_point_env] epoch #14 | EpochTime 77.32 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -47.6304
+MetaTest/Average/AverageReturn                       -47.6304
+MetaTest/Average/Iteration                            14
+MetaTest/Average/MaxReturn                           -18.2493
+MetaTest/Average/MinReturn                           -89.6935
+MetaTest/Average/NumEpisodes                           7
+MetaTest/Average/StdReturn                            26.4819
+MetaTest/Average/SuccessRate                           0.428571
+MetaTest/Average/TerminationRate                       0.428571
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -47.6304
+MetaTest/__unnamed_task__/AverageReturn              -47.6304
+MetaTest/__unnamed_task__/Iteration                   14
+MetaTest/__unnamed_task__/MaxReturn                  -18.2493
+MetaTest/__unnamed_task__/MinReturn                  -89.6935
+MetaTest/__unnamed_task__/NumEpisodes                  7
+MetaTest/__unnamed_task__/StdReturn                   26.4819
+MetaTest/__unnamed_task__/SuccessRate                  0.428571
+MetaTest/__unnamed_task__/TerminationRate              0.428571
+TotalEnvSteps                                      50761
+-------------------------------------------------  ------------
+2025-09-19 15:49:45 | [pearl_point_env] epoch #15 | Training...
+2025-09-19 15:50:59 | [pearl_point_env] epoch #15 | Evaluating...
+2025-09-19 15:50:59 | [pearl_point_env] epoch #15 | Sampling for adapation and meta-testing...
+2025-09-19 15:51:00 | [pearl_point_env] epoch #15 | Finished meta-testing...
+2025-09-19 15:51:02 | [pearl_point_env] epoch #15 | Saving snapshot...
+2025-09-19 15:51:02 | [pearl_point_env] epoch #15 | Saved
+2025-09-19 15:51:02 | [pearl_point_env] epoch #15 | Time 1256.27 s
+2025-09-19 15:51:02 | [pearl_point_env] epoch #15 | EpochTime 77.99 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -38.646
+MetaTest/Average/AverageReturn                       -38.646
+MetaTest/Average/Iteration                            15
+MetaTest/Average/MaxReturn                            -4.1473
+MetaTest/Average/MinReturn                          -179.204
+MetaTest/Average/NumEpisodes                          13
+MetaTest/Average/StdReturn                            56.9209
+MetaTest/Average/SuccessRate                           0.692308
+MetaTest/Average/TerminationRate                       0.692308
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -38.646
+MetaTest/__unnamed_task__/AverageReturn              -38.646
+MetaTest/__unnamed_task__/Iteration                   15
+MetaTest/__unnamed_task__/MaxReturn                   -4.1473
+MetaTest/__unnamed_task__/MinReturn                 -179.204
+MetaTest/__unnamed_task__/NumEpisodes                 13
+MetaTest/__unnamed_task__/StdReturn                   56.9209
+MetaTest/__unnamed_task__/SuccessRate                  0.692308
+MetaTest/__unnamed_task__/TerminationRate              0.692308
+TotalEnvSteps                                      53776
+-------------------------------------------------  ------------
+2025-09-19 15:51:03 | [pearl_point_env] epoch #16 | Training...
+2025-09-19 15:52:23 | [pearl_point_env] epoch #16 | Evaluating...
+2025-09-19 15:52:23 | [pearl_point_env] epoch #16 | Sampling for adapation and meta-testing...
+2025-09-19 15:52:24 | [pearl_point_env] epoch #16 | Finished meta-testing...
+2025-09-19 15:52:26 | [pearl_point_env] epoch #16 | Saving snapshot...
+2025-09-19 15:52:26 | [pearl_point_env] epoch #16 | Saved
+2025-09-19 15:52:26 | [pearl_point_env] epoch #16 | Time 1339.80 s
+2025-09-19 15:52:26 | [pearl_point_env] epoch #16 | EpochTime 83.53 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn            -110.803
+MetaTest/Average/AverageReturn                      -110.803
+MetaTest/Average/Iteration                            16
+MetaTest/Average/MaxReturn                           -28.3413
+MetaTest/Average/MinReturn                          -236.905
+MetaTest/Average/NumEpisodes                           6
+MetaTest/Average/StdReturn                            77.4115
+MetaTest/Average/SuccessRate                           0.166667
+MetaTest/Average/TerminationRate                       0.166667
+MetaTest/__unnamed_task__/AverageDiscountedReturn   -110.803
+MetaTest/__unnamed_task__/AverageReturn             -110.803
+MetaTest/__unnamed_task__/Iteration                   16
+MetaTest/__unnamed_task__/MaxReturn                  -28.3413
+MetaTest/__unnamed_task__/MinReturn                 -236.905
+MetaTest/__unnamed_task__/NumEpisodes                  6
+MetaTest/__unnamed_task__/StdReturn                   77.4115
+MetaTest/__unnamed_task__/SuccessRate                  0.166667
+MetaTest/__unnamed_task__/TerminationRate              0.166667
+TotalEnvSteps                                      56805
+-------------------------------------------------  ------------
+2025-09-19 15:52:27 | [pearl_point_env] epoch #17 | Training...
+2025-09-19 15:53:38 | [pearl_point_env] epoch #17 | Evaluating...
+2025-09-19 15:53:38 | [pearl_point_env] epoch #17 | Sampling for adapation and meta-testing...
+2025-09-19 15:53:40 | [pearl_point_env] epoch #17 | Finished meta-testing...
+2025-09-19 15:53:41 | [pearl_point_env] epoch #17 | Saving snapshot...
+2025-09-19 15:53:41 | [pearl_point_env] epoch #17 | Saved
+2025-09-19 15:53:41 | [pearl_point_env] epoch #17 | Time 1415.26 s
+2025-09-19 15:53:41 | [pearl_point_env] epoch #17 | EpochTime 75.46 s
+-------------------------------------------------  ----------
+MetaTest/Average/AverageDiscountedReturn            -151.312
+MetaTest/Average/AverageReturn                      -151.312
+MetaTest/Average/Iteration                            17
+MetaTest/Average/MaxReturn                           -87.0675
+MetaTest/Average/MinReturn                          -243.964
+MetaTest/Average/NumEpisodes                           5
+MetaTest/Average/StdReturn                            64.0394
+MetaTest/Average/SuccessRate                           0
+MetaTest/Average/TerminationRate                       0
+MetaTest/__unnamed_task__/AverageDiscountedReturn   -151.312
+MetaTest/__unnamed_task__/AverageReturn             -151.312
+MetaTest/__unnamed_task__/Iteration                   17
+MetaTest/__unnamed_task__/MaxReturn                  -87.0675
+MetaTest/__unnamed_task__/MinReturn                 -243.964
+MetaTest/__unnamed_task__/NumEpisodes                  5
+MetaTest/__unnamed_task__/StdReturn                   64.0394
+MetaTest/__unnamed_task__/SuccessRate                  0
+MetaTest/__unnamed_task__/TerminationRate              0
+TotalEnvSteps                                      59847
+-------------------------------------------------  ----------
+2025-09-19 15:53:42 | [pearl_point_env] epoch #18 | Training...
+2025-09-19 15:54:56 | [pearl_point_env] epoch #18 | Evaluating...
+2025-09-19 15:54:56 | [pearl_point_env] epoch #18 | Sampling for adapation and meta-testing...
+2025-09-19 15:54:58 | [pearl_point_env] epoch #18 | Finished meta-testing...
+2025-09-19 15:55:00 | [pearl_point_env] epoch #18 | Saving snapshot...
+2025-09-19 15:55:00 | [pearl_point_env] epoch #18 | Saved
+2025-09-19 15:55:00 | [pearl_point_env] epoch #18 | Time 1493.73 s
+2025-09-19 15:55:00 | [pearl_point_env] epoch #18 | EpochTime 78.46 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -28.494
+MetaTest/Average/AverageReturn                       -28.494
+MetaTest/Average/Iteration                            18
+MetaTest/Average/MaxReturn                            -4.53365
+MetaTest/Average/MinReturn                          -147.575
+MetaTest/Average/NumEpisodes                          13
+MetaTest/Average/StdReturn                            38.6082
+MetaTest/Average/SuccessRate                           0.769231
+MetaTest/Average/TerminationRate                       0.769231
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -28.494
+MetaTest/__unnamed_task__/AverageReturn              -28.494
+MetaTest/__unnamed_task__/Iteration                   18
+MetaTest/__unnamed_task__/MaxReturn                   -4.53365
+MetaTest/__unnamed_task__/MinReturn                 -147.575
+MetaTest/__unnamed_task__/NumEpisodes                 13
+MetaTest/__unnamed_task__/StdReturn                   38.6082
+MetaTest/__unnamed_task__/SuccessRate                  0.769231
+MetaTest/__unnamed_task__/TerminationRate              0.769231
+TotalEnvSteps                                      62882
+-------------------------------------------------  ------------
+2025-09-19 15:55:01 | [pearl_point_env] epoch #19 | Training...
+2025-09-19 15:56:17 | [pearl_point_env] epoch #19 | Evaluating...
+2025-09-19 15:56:17 | [pearl_point_env] epoch #19 | Sampling for adapation and meta-testing...
+2025-09-19 15:56:19 | [pearl_point_env] epoch #19 | Finished meta-testing...
+2025-09-19 15:56:20 | [pearl_point_env] epoch #19 | Saving snapshot...
+2025-09-19 15:56:20 | [pearl_point_env] epoch #19 | Saved
+2025-09-19 15:56:20 | [pearl_point_env] epoch #19 | Time 1574.34 s
+2025-09-19 15:56:20 | [pearl_point_env] epoch #19 | EpochTime 80.60 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -70.6283
+MetaTest/Average/AverageReturn                       -70.6283
+MetaTest/Average/Iteration                            19
+MetaTest/Average/MaxReturn                            -3.10034
+MetaTest/Average/MinReturn                          -342.772
+MetaTest/Average/NumEpisodes                          12
+MetaTest/Average/StdReturn                           108.548
+MetaTest/Average/SuccessRate                           0.666667
+MetaTest/Average/TerminationRate                       0.666667
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -70.6283
+MetaTest/__unnamed_task__/AverageReturn              -70.6283
+MetaTest/__unnamed_task__/Iteration                   19
+MetaTest/__unnamed_task__/MaxReturn                   -3.10034
+MetaTest/__unnamed_task__/MinReturn                 -342.772
+MetaTest/__unnamed_task__/NumEpisodes                 12
+MetaTest/__unnamed_task__/StdReturn                  108.548
+MetaTest/__unnamed_task__/SuccessRate                  0.666667
+MetaTest/__unnamed_task__/TerminationRate              0.666667
+TotalEnvSteps                                      65935
+-------------------------------------------------  ------------
+2025-09-19 15:56:21 | [pearl_point_env] epoch #20 | Training...
+2025-09-19 15:57:35 | [pearl_point_env] epoch #20 | Evaluating...
+2025-09-19 15:57:35 | [pearl_point_env] epoch #20 | Sampling for adapation and meta-testing...
+2025-09-19 15:57:36 | [pearl_point_env] epoch #20 | Finished meta-testing...
+2025-09-19 15:57:38 | [pearl_point_env] epoch #20 | Saving snapshot...
+2025-09-19 15:57:38 | [pearl_point_env] epoch #20 | Saved
+2025-09-19 15:57:38 | [pearl_point_env] epoch #20 | Time 1652.11 s
+2025-09-19 15:57:38 | [pearl_point_env] epoch #20 | EpochTime 77.77 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -99.7357
+MetaTest/Average/AverageReturn                       -99.7357
+MetaTest/Average/Iteration                            20
+MetaTest/Average/MaxReturn                           -17.6308
+MetaTest/Average/MinReturn                          -279.349
+MetaTest/Average/NumEpisodes                           6
+MetaTest/Average/StdReturn                            87.633
+MetaTest/Average/SuccessRate                           0.333333
+MetaTest/Average/TerminationRate                       0.333333
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -99.7357
+MetaTest/__unnamed_task__/AverageReturn              -99.7357
+MetaTest/__unnamed_task__/Iteration                   20
+MetaTest/__unnamed_task__/MaxReturn                  -17.6308
+MetaTest/__unnamed_task__/MinReturn                 -279.349
+MetaTest/__unnamed_task__/NumEpisodes                  6
+MetaTest/__unnamed_task__/StdReturn                   87.633
+MetaTest/__unnamed_task__/SuccessRate                  0.333333
+MetaTest/__unnamed_task__/TerminationRate              0.333333
+TotalEnvSteps                                      68966
+-------------------------------------------------  ------------
+2025-09-19 15:57:39 | [pearl_point_env] epoch #21 | Training...
+2025-09-19 15:58:53 | [pearl_point_env] epoch #21 | Evaluating...
+2025-09-19 15:58:53 | [pearl_point_env] epoch #21 | Sampling for adapation and meta-testing...
+2025-09-19 15:58:55 | [pearl_point_env] epoch #21 | Finished meta-testing...
+2025-09-19 15:58:57 | [pearl_point_env] epoch #21 | Saving snapshot...
+2025-09-19 15:58:57 | [pearl_point_env] epoch #21 | Saved
+2025-09-19 15:58:57 | [pearl_point_env] epoch #21 | Time 1731.04 s
+2025-09-19 15:58:57 | [pearl_point_env] epoch #21 | EpochTime 78.92 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -53.5803
+MetaTest/Average/AverageReturn                       -53.5803
+MetaTest/Average/Iteration                            21
+MetaTest/Average/MaxReturn                            -5.34621
+MetaTest/Average/MinReturn                          -261.97
+MetaTest/Average/NumEpisodes                          12
+MetaTest/Average/StdReturn                            77.6584
+MetaTest/Average/SuccessRate                           0.666667
+MetaTest/Average/TerminationRate                       0.666667
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -53.5803
+MetaTest/__unnamed_task__/AverageReturn              -53.5803
+MetaTest/__unnamed_task__/Iteration                   21
+MetaTest/__unnamed_task__/MaxReturn                   -5.34621
+MetaTest/__unnamed_task__/MinReturn                 -261.97
+MetaTest/__unnamed_task__/NumEpisodes                 12
+MetaTest/__unnamed_task__/StdReturn                   77.6584
+MetaTest/__unnamed_task__/SuccessRate                  0.666667
+MetaTest/__unnamed_task__/TerminationRate              0.666667
+TotalEnvSteps                                      72107
+-------------------------------------------------  ------------
+2025-09-19 15:58:58 | [pearl_point_env] epoch #22 | Training...
+2025-09-19 16:00:14 | [pearl_point_env] epoch #22 | Evaluating...
+2025-09-19 16:00:14 | [pearl_point_env] epoch #22 | Sampling for adapation and meta-testing...
+2025-09-19 16:00:15 | [pearl_point_env] epoch #22 | Finished meta-testing...
+2025-09-19 16:00:17 | [pearl_point_env] epoch #22 | Saving snapshot...
+2025-09-19 16:00:17 | [pearl_point_env] epoch #22 | Saved
+2025-09-19 16:00:17 | [pearl_point_env] epoch #22 | Time 1811.05 s
+2025-09-19 16:00:17 | [pearl_point_env] epoch #22 | EpochTime 80.00 s
+-------------------------------------------------  ----------
+MetaTest/Average/AverageDiscountedReturn            -170.874
+MetaTest/Average/AverageReturn                      -170.874
+MetaTest/Average/Iteration                            22
+MetaTest/Average/MaxReturn                           -75.0444
+MetaTest/Average/MinReturn                          -275.638
+MetaTest/Average/NumEpisodes                           5
+MetaTest/Average/StdReturn                            81.0355
+MetaTest/Average/SuccessRate                           0
+MetaTest/Average/TerminationRate                       0
+MetaTest/__unnamed_task__/AverageDiscountedReturn   -170.874
+MetaTest/__unnamed_task__/AverageReturn             -170.874
+MetaTest/__unnamed_task__/Iteration                   22
+MetaTest/__unnamed_task__/MaxReturn                  -75.0444
+MetaTest/__unnamed_task__/MinReturn                 -275.638
+MetaTest/__unnamed_task__/NumEpisodes                  5
+MetaTest/__unnamed_task__/StdReturn                   81.0355
+MetaTest/__unnamed_task__/SuccessRate                  0
+MetaTest/__unnamed_task__/TerminationRate              0
+TotalEnvSteps                                      75118
+-------------------------------------------------  ----------
+2025-09-19 16:00:18 | [pearl_point_env] epoch #23 | Training...
+2025-09-19 16:01:32 | [pearl_point_env] epoch #23 | Evaluating...
+2025-09-19 16:01:32 | [pearl_point_env] epoch #23 | Sampling for adapation and meta-testing...
+2025-09-19 16:01:34 | [pearl_point_env] epoch #23 | Finished meta-testing...
+2025-09-19 16:01:36 | [pearl_point_env] epoch #23 | Saving snapshot...
+2025-09-19 16:01:36 | [pearl_point_env] epoch #23 | Saved
+2025-09-19 16:01:36 | [pearl_point_env] epoch #23 | Time 1889.91 s
+2025-09-19 16:01:36 | [pearl_point_env] epoch #23 | EpochTime 78.85 s
+-------------------------------------------------  ----------
+MetaTest/Average/AverageDiscountedReturn            -196.34
+MetaTest/Average/AverageReturn                      -196.34
+MetaTest/Average/Iteration                            23
+MetaTest/Average/MaxReturn                           -88.6712
+MetaTest/Average/MinReturn                          -315.145
+MetaTest/Average/NumEpisodes                           5
+MetaTest/Average/StdReturn                            90.1961
+MetaTest/Average/SuccessRate                           0
+MetaTest/Average/TerminationRate                       0
+MetaTest/__unnamed_task__/AverageDiscountedReturn   -196.34
+MetaTest/__unnamed_task__/AverageReturn             -196.34
+MetaTest/__unnamed_task__/Iteration                   23
+MetaTest/__unnamed_task__/MaxReturn                  -88.6712
+MetaTest/__unnamed_task__/MinReturn                 -315.145
+MetaTest/__unnamed_task__/NumEpisodes                  5
+MetaTest/__unnamed_task__/StdReturn                   90.1961
+MetaTest/__unnamed_task__/SuccessRate                  0
+MetaTest/__unnamed_task__/TerminationRate              0
+TotalEnvSteps                                      78169
+-------------------------------------------------  ----------
+2025-09-19 16:01:37 | [pearl_point_env] epoch #24 | Training...
+2025-09-19 16:02:54 | [pearl_point_env] epoch #24 | Evaluating...
+2025-09-19 16:02:54 | [pearl_point_env] epoch #24 | Sampling for adapation and meta-testing...
+2025-09-19 16:02:56 | [pearl_point_env] epoch #24 | Finished meta-testing...
+2025-09-19 16:02:58 | [pearl_point_env] epoch #24 | Saving snapshot...
+2025-09-19 16:02:58 | [pearl_point_env] epoch #24 | Saved
+2025-09-19 16:02:58 | [pearl_point_env] epoch #24 | Time 1971.81 s
+2025-09-19 16:02:58 | [pearl_point_env] epoch #24 | EpochTime 81.90 s
+-------------------------------------------------  ----------
+MetaTest/Average/AverageDiscountedReturn            -204.753
+MetaTest/Average/AverageReturn                      -204.753
+MetaTest/Average/Iteration                            24
+MetaTest/Average/MaxReturn                          -116.942
+MetaTest/Average/MinReturn                          -286.279
+MetaTest/Average/NumEpisodes                           5
+MetaTest/Average/StdReturn                            70.8928
+MetaTest/Average/SuccessRate                           0
+MetaTest/Average/TerminationRate                       0
+MetaTest/__unnamed_task__/AverageDiscountedReturn   -204.753
+MetaTest/__unnamed_task__/AverageReturn             -204.753
+MetaTest/__unnamed_task__/Iteration                   24
+MetaTest/__unnamed_task__/MaxReturn                 -116.942
+MetaTest/__unnamed_task__/MinReturn                 -286.279
+MetaTest/__unnamed_task__/NumEpisodes                  5
+MetaTest/__unnamed_task__/StdReturn                   70.8928
+MetaTest/__unnamed_task__/SuccessRate                  0
+MetaTest/__unnamed_task__/TerminationRate              0
+TotalEnvSteps                                      81255
+-------------------------------------------------  ----------
+2025-09-19 16:02:59 | [pearl_point_env] epoch #25 | Training...
+2025-09-19 16:04:10 | [pearl_point_env] epoch #25 | Evaluating...
+2025-09-19 16:04:10 | [pearl_point_env] epoch #25 | Sampling for adapation and meta-testing...
+2025-09-19 16:04:12 | [pearl_point_env] epoch #25 | Finished meta-testing...
+2025-09-19 16:04:49 | [pearl_point_env] epoch #25 | Saving snapshot...
+2025-09-19 16:04:49 | [pearl_point_env] epoch #25 | Saved
+2025-09-19 16:04:49 | [pearl_point_env] epoch #25 | Time 2082.51 s
+2025-09-19 16:04:49 | [pearl_point_env] epoch #25 | EpochTime 110.69 s
+-------------------------------------------------  ----------
+MetaTest/Average/AverageDiscountedReturn            -104.072
+MetaTest/Average/AverageReturn                      -104.072
+MetaTest/Average/Iteration                            25
+MetaTest/Average/MaxReturn                           -70.8682
+MetaTest/Average/MinReturn                          -145.319
+MetaTest/Average/NumEpisodes                           5
+MetaTest/Average/StdReturn                            24.7358
+MetaTest/Average/SuccessRate                           0
+MetaTest/Average/TerminationRate                       0
+MetaTest/__unnamed_task__/AverageDiscountedReturn   -104.072
+MetaTest/__unnamed_task__/AverageReturn             -104.072
+MetaTest/__unnamed_task__/Iteration                   25
+MetaTest/__unnamed_task__/MaxReturn                  -70.8682
+MetaTest/__unnamed_task__/MinReturn                 -145.319
+MetaTest/__unnamed_task__/NumEpisodes                  5
+MetaTest/__unnamed_task__/StdReturn                   24.7358
+MetaTest/__unnamed_task__/SuccessRate                  0
+MetaTest/__unnamed_task__/TerminationRate              0
+TotalEnvSteps                                      84310
+-------------------------------------------------  ----------
+2025-09-19 16:04:50 | [pearl_point_env] epoch #26 | Training...
+2025-09-19 16:06:03 | [pearl_point_env] epoch #26 | Evaluating...
+2025-09-19 16:06:03 | [pearl_point_env] epoch #26 | Sampling for adapation and meta-testing...
+2025-09-19 16:06:05 | [pearl_point_env] epoch #26 | Finished meta-testing...
+2025-09-19 16:06:07 | [pearl_point_env] epoch #26 | Saving snapshot...
+2025-09-19 16:06:07 | [pearl_point_env] epoch #26 | Saved
+2025-09-19 16:06:07 | [pearl_point_env] epoch #26 | Time 2160.86 s
+2025-09-19 16:06:07 | [pearl_point_env] epoch #26 | EpochTime 78.34 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -19.6519
+MetaTest/Average/AverageReturn                       -19.6519
+MetaTest/Average/Iteration                            26
+MetaTest/Average/MaxReturn                            -3.03744
+MetaTest/Average/MinReturn                          -155.507
+MetaTest/Average/NumEpisodes                          21
+MetaTest/Average/StdReturn                            37.0172
+MetaTest/Average/SuccessRate                           0.857143
+MetaTest/Average/TerminationRate                       0.857143
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -19.6519
+MetaTest/__unnamed_task__/AverageReturn              -19.6519
+MetaTest/__unnamed_task__/Iteration                   26
+MetaTest/__unnamed_task__/MaxReturn                   -3.03744
+MetaTest/__unnamed_task__/MinReturn                 -155.507
+MetaTest/__unnamed_task__/NumEpisodes                 21
+MetaTest/__unnamed_task__/StdReturn                   37.0172
+MetaTest/__unnamed_task__/SuccessRate                  0.857143
+MetaTest/__unnamed_task__/TerminationRate              0.857143
+TotalEnvSteps                                      87480
+-------------------------------------------------  ------------
+2025-09-19 16:06:08 | [pearl_point_env] epoch #27 | Training...
+2025-09-19 16:07:26 | [pearl_point_env] epoch #27 | Evaluating...
+2025-09-19 16:07:26 | [pearl_point_env] epoch #27 | Sampling for adapation and meta-testing...
+2025-09-19 16:07:27 | [pearl_point_env] epoch #27 | Finished meta-testing...
+2025-09-19 16:07:29 | [pearl_point_env] epoch #27 | Saving snapshot...
+2025-09-19 16:07:29 | [pearl_point_env] epoch #27 | Saved
+2025-09-19 16:07:29 | [pearl_point_env] epoch #27 | Time 2243.18 s
+2025-09-19 16:07:29 | [pearl_point_env] epoch #27 | EpochTime 82.31 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -91.9299
+MetaTest/Average/AverageReturn                       -91.9299
+MetaTest/Average/Iteration                            27
+MetaTest/Average/MaxReturn                           -23.5476
+MetaTest/Average/MinReturn                          -184.875
+MetaTest/Average/NumEpisodes                           6
+MetaTest/Average/StdReturn                            55.6726
+MetaTest/Average/SuccessRate                           0.333333
+MetaTest/Average/TerminationRate                       0.333333
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -91.9299
+MetaTest/__unnamed_task__/AverageReturn              -91.9299
+MetaTest/__unnamed_task__/Iteration                   27
+MetaTest/__unnamed_task__/MaxReturn                  -23.5476
+MetaTest/__unnamed_task__/MinReturn                 -184.875
+MetaTest/__unnamed_task__/NumEpisodes                  6
+MetaTest/__unnamed_task__/StdReturn                   55.6726
+MetaTest/__unnamed_task__/SuccessRate                  0.333333
+MetaTest/__unnamed_task__/TerminationRate              0.333333
+TotalEnvSteps                                      90678
+-------------------------------------------------  ------------
+2025-09-19 16:07:30 | [pearl_point_env] epoch #28 | Training...
+2025-09-19 16:08:58 | [pearl_point_env] epoch #28 | Evaluating...
+2025-09-19 16:08:58 | [pearl_point_env] epoch #28 | Sampling for adapation and meta-testing...
+2025-09-19 16:09:00 | [pearl_point_env] epoch #28 | Finished meta-testing...
+2025-09-19 16:09:02 | [pearl_point_env] epoch #28 | Saving snapshot...
+2025-09-19 16:09:02 | [pearl_point_env] epoch #28 | Saved
+2025-09-19 16:09:02 | [pearl_point_env] epoch #28 | Time 2335.82 s
+2025-09-19 16:09:02 | [pearl_point_env] epoch #28 | EpochTime 92.64 s
+-------------------------------------------------  ------------
+MetaTest/Average/AverageDiscountedReturn             -32.1177
+MetaTest/Average/AverageReturn                       -32.1177
+MetaTest/Average/Iteration                            28
+MetaTest/Average/MaxReturn                            -4.6447
+MetaTest/Average/MinReturn                          -138.382
+MetaTest/Average/NumEpisodes                          11
+MetaTest/Average/StdReturn                            39.8056
+MetaTest/Average/SuccessRate                           0.636364
+MetaTest/Average/TerminationRate                       0.636364
+MetaTest/__unnamed_task__/AverageDiscountedReturn    -32.1177
+MetaTest/__unnamed_task__/AverageReturn              -32.1177
+MetaTest/__unnamed_task__/Iteration                   28
+MetaTest/__unnamed_task__/MaxReturn                   -4.6447
+MetaTest/__unnamed_task__/MinReturn                 -138.382
+MetaTest/__unnamed_task__/NumEpisodes                 11
+MetaTest/__unnamed_task__/StdReturn                   39.8056
+MetaTest/__unnamed_task__/SuccessRate                  0.636364
+MetaTest/__unnamed_task__/TerminationRate              0.636364
+TotalEnvSteps                                      93815
+-------------------------------------------------  ------------
+2025-09-19 16:09:03 | [pearl_point_env] epoch #29 | Training...
+2025-09-19 16:10:25 | [pearl_point_env] epoch #29 | Evaluating...
+2025-09-19 16:10:25 | [pearl_point_env] epoch #29 | Sampling for adapation and meta-testing...
+2025-09-19 16:10:27 | [pearl_point_env] epoch #29 | Finished meta-testing...
+2025-09-19 16:10:29 | [pearl_point_env] epoch #29 | Saving snapshot...
+2025-09-19 16:10:29 | [pearl_point_env] epoch #29 | Saved
+2025-09-19 16:10:29 | [pearl_point_env] epoch #29 | Time 2422.58 s
+2025-09-19 16:10:29 | [pearl_point_env] epoch #29 | EpochTime 86.76 s
+-------------------------------------------------  ----------
+MetaTest/Average/AverageDiscountedReturn            -147.276
+MetaTest/Average/AverageReturn                      -147.276
+MetaTest/Average/Iteration                            29
+MetaTest/Average/MaxReturn                           -85.0976
+MetaTest/Average/MinReturn                          -168.283
+MetaTest/Average/NumEpisodes                           5
+MetaTest/Average/StdReturn                            31.3224
+MetaTest/Average/SuccessRate                           0
+MetaTest/Average/TerminationRate                       0
+MetaTest/__unnamed_task__/AverageDiscountedReturn   -147.276
+MetaTest/__unnamed_task__/AverageReturn             -147.276
+MetaTest/__unnamed_task__/Iteration                   29
+MetaTest/__unnamed_task__/MaxReturn                  -85.0976
+MetaTest/__unnamed_task__/MinReturn                 -168.283
+MetaTest/__unnamed_task__/NumEpisodes                  5
+MetaTest/__unnamed_task__/StdReturn                   31.3224
+MetaTest/__unnamed_task__/SuccessRate                  0
+MetaTest/__unnamed_task__/TerminationRate              0
+TotalEnvSteps                                      96902
+-------------------------------------------------  ----------

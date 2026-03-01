@@ -1,0 +1,3777 @@
+{
+  "_snapshotter": {
+    "_snapshot_dir": "/Users/paulnitschke/Desktop/projects/geo_meta_rl/data/local/experiment/CL_point_env_2",
+    "_snapshot_mode": "last",
+    "_snapshot_gap": 1,
+    "$type": "garage.experiment.snapshotter.Snapshotter"
+  },
+  "_has_setup": true,
+  "_plot": false,
+  "_seed": 1,
+  "_train_args": {
+    "n_epochs": 10,
+    "batch_size": 256,
+    "plot": false,
+    "store_episodes": false,
+    "pause_for_plot": false,
+    "start_epoch": 0,
+    "$type": "garage.trainer.TrainArgs"
+  },
+  "_stats": {
+    "total_epoch": 0,
+    "total_itr": 0,
+    "total_env_steps": 0,
+    "last_episode": "None",
+    "$type": "garage.trainer.ExperimentStats"
+  },
+  "_algo": {
+    "_env": [
+      {
+        "_env_type": {
+          "$typename": "garage.envs.point_env.PointEnv"
+        },
+        "_task": {
+          "goal": "array([-0.86713957,  0.49806522])"
+        },
+        "_wrapper_cons": {
+          "$type": "builtins.function"
+        },
+        "$type": "garage.sampler.env_update.SetTaskUpdate"
+      },
+      {
+        "_env_type": {
+          "$typename": "garage.envs.point_env.PointEnv"
+        },
+        "_task": {
+          "goal": "array([-0.18537819, -0.98266725])"
+        },
+        "_wrapper_cons": {
+          "$type": "builtins.function"
+        },
+        "$type": "garage.sampler.env_update.SetTaskUpdate"
+      },
+      {
+        "_env_type": {
+          "$typename": "garage.envs.point_env.PointEnv"
+        },
+        "_task": {
+          "goal": "array([9.99999742e-01, 7.18638110e-04])"
+        },
+        "_wrapper_cons": {
+          "$type": "builtins.function"
+        },
+        "$type": "garage.sampler.env_update.SetTaskUpdate"
+      },
+      {
+        "_env_type": {
+          "$typename": "garage.envs.point_env.PointEnv"
+        },
+        "_task": {
+          "goal": "array([-0.32292198,  0.94642559])"
+        },
+        "_wrapper_cons": {
+          "$type": "builtins.function"
+        },
+        "$type": "garage.sampler.env_update.SetTaskUpdate"
+      }
+    ],
+    "_qf1": {
+      "_env_spec": {
+        "max_episode_length": "None",
+        "input_space": {
+          "dtype": "dtype('float32')",
+          "bounded_below": "array([ True,  True])",
+          "bounded_above": "array([ True,  True])",
+          "_shape": [
+            2
+          ],
+          "low": "array([-1., -1.], dtype=float32)",
+          "high": "array([1., 1.], dtype=float32)",
+          "low_repr": "-1.0",
+          "high_repr": "1.0",
+          "_np_random": "None",
+          "$type": "akro.box.Box"
+        },
+        "output_space": {
+          "dtype": "dtype('float32')",
+          "bounded_below": "array([ True,  True,  True,  True])",
+          "bounded_above": "array([ True,  True,  True,  True])",
+          "_shape": [
+            4
+          ],
+          "low": "array([-1., -1., -1., -1.], dtype=float32)",
+          "high": "array([1., 1., 1., 1.], dtype=float32)",
+          "low_repr": "-1.0",
+          "high_repr": "1.0",
+          "_np_random": "None",
+          "$type": "akro.box.Box"
+        },
+        "$type": "garage._environment.EnvSpec"
+      },
+      "_obs_dim": 4.0,
+      "_action_dim": 2.0,
+      "training": true,
+      "_parameters": {},
+      "_buffers": {},
+      "_non_persistent_buffers_set": [],
+      "_backward_pre_hooks": {},
+      "_backward_hooks": {},
+      "_is_full_backward_hook": "None",
+      "_forward_hooks": {},
+      "_forward_hooks_with_kwargs": {},
+      "_forward_hooks_always_called": {},
+      "_forward_pre_hooks": {},
+      "_forward_pre_hooks_with_kwargs": {},
+      "_state_dict_hooks": {},
+      "_state_dict_pre_hooks": {},
+      "_load_state_dict_pre_hooks": {},
+      "_load_state_dict_post_hooks": {},
+      "_modules": {
+        "_layers": {
+          "training": true,
+          "_parameters": {},
+          "_buffers": {},
+          "_non_persistent_buffers_set": [],
+          "_backward_pre_hooks": {},
+          "_backward_hooks": {},
+          "_is_full_backward_hook": "None",
+          "_forward_hooks": {},
+          "_forward_hooks_with_kwargs": {},
+          "_forward_hooks_always_called": {},
+          "_forward_pre_hooks": {},
+          "_forward_pre_hooks_with_kwargs": {},
+          "_state_dict_hooks": {},
+          "_state_dict_pre_hooks": {},
+          "_load_state_dict_pre_hooks": {},
+          "_load_state_dict_post_hooks": {},
+          "_modules": {
+            "0": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 6.0,
+                  "out_features": 256,
+                  "$type": "torch.nn.modules.linear.Linear"
+                },
+                "non_linearity": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "module": {
+                    "$type": "builtins.function"
+                  },
+                  "$type": "garage.torch._functions.NonLinearity"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            },
+            "1": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 256,
+                  "out_features": 256,
+                  "$type": "torch.nn.modules.linear.Linear"
+                },
+                "non_linearity": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "module": {
+                    "$type": "builtins.function"
+                  },
+                  "$type": "garage.torch._functions.NonLinearity"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            },
+            "2": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 256,
+                  "out_features": 256,
+                  "$type": "torch.nn.modules.linear.Linear"
+                },
+                "non_linearity": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "module": {
+                    "$type": "builtins.function"
+                  },
+                  "$type": "garage.torch._functions.NonLinearity"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            }
+          },
+          "$type": "torch.nn.modules.container.ModuleList"
+        },
+        "_output_layers": {
+          "training": true,
+          "_parameters": {},
+          "_buffers": {},
+          "_non_persistent_buffers_set": [],
+          "_backward_pre_hooks": {},
+          "_backward_hooks": {},
+          "_is_full_backward_hook": "None",
+          "_forward_hooks": {},
+          "_forward_hooks_with_kwargs": {},
+          "_forward_hooks_always_called": {},
+          "_forward_pre_hooks": {},
+          "_forward_pre_hooks_with_kwargs": {},
+          "_state_dict_hooks": {},
+          "_state_dict_pre_hooks": {},
+          "_load_state_dict_pre_hooks": {},
+          "_load_state_dict_post_hooks": {},
+          "_modules": {
+            "0": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 256,
+                  "out_features": 1,
+                  "$type": "torch.nn.modules.linear.Linear"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            }
+          },
+          "$type": "torch.nn.modules.container.ModuleList"
+        }
+      },
+      "_output_dim": 1,
+      "$type": "garage.torch.q_functions.continuous_mlp_q_function.ContinuousMLPQFunction"
+    },
+    "_qf2": {
+      "_env_spec": {
+        "max_episode_length": "None",
+        "input_space": {
+          "dtype": "dtype('float32')",
+          "bounded_below": "array([ True,  True])",
+          "bounded_above": "array([ True,  True])",
+          "_shape": [
+            2
+          ],
+          "low": "array([-1., -1.], dtype=float32)",
+          "high": "array([1., 1.], dtype=float32)",
+          "low_repr": "-1.0",
+          "high_repr": "1.0",
+          "_np_random": "None",
+          "$type": "akro.box.Box"
+        },
+        "output_space": {
+          "dtype": "dtype('float32')",
+          "bounded_below": "array([ True,  True,  True,  True])",
+          "bounded_above": "array([ True,  True,  True,  True])",
+          "_shape": [
+            4
+          ],
+          "low": "array([-1., -1., -1., -1.], dtype=float32)",
+          "high": "array([1., 1., 1., 1.], dtype=float32)",
+          "low_repr": "-1.0",
+          "high_repr": "1.0",
+          "_np_random": "None",
+          "$type": "akro.box.Box"
+        },
+        "$type": "garage._environment.EnvSpec"
+      },
+      "_obs_dim": 4.0,
+      "_action_dim": 2.0,
+      "training": true,
+      "_parameters": {},
+      "_buffers": {},
+      "_non_persistent_buffers_set": [],
+      "_backward_pre_hooks": {},
+      "_backward_hooks": {},
+      "_is_full_backward_hook": "None",
+      "_forward_hooks": {},
+      "_forward_hooks_with_kwargs": {},
+      "_forward_hooks_always_called": {},
+      "_forward_pre_hooks": {},
+      "_forward_pre_hooks_with_kwargs": {},
+      "_state_dict_hooks": {},
+      "_state_dict_pre_hooks": {},
+      "_load_state_dict_pre_hooks": {},
+      "_load_state_dict_post_hooks": {},
+      "_modules": {
+        "_layers": {
+          "training": true,
+          "_parameters": {},
+          "_buffers": {},
+          "_non_persistent_buffers_set": [],
+          "_backward_pre_hooks": {},
+          "_backward_hooks": {},
+          "_is_full_backward_hook": "None",
+          "_forward_hooks": {},
+          "_forward_hooks_with_kwargs": {},
+          "_forward_hooks_always_called": {},
+          "_forward_pre_hooks": {},
+          "_forward_pre_hooks_with_kwargs": {},
+          "_state_dict_hooks": {},
+          "_state_dict_pre_hooks": {},
+          "_load_state_dict_pre_hooks": {},
+          "_load_state_dict_post_hooks": {},
+          "_modules": {
+            "0": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 6.0,
+                  "out_features": 256,
+                  "$type": "torch.nn.modules.linear.Linear"
+                },
+                "non_linearity": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "module": {
+                    "$type": "builtins.function"
+                  },
+                  "$type": "garage.torch._functions.NonLinearity"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            },
+            "1": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 256,
+                  "out_features": 256,
+                  "$type": "torch.nn.modules.linear.Linear"
+                },
+                "non_linearity": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "module": {
+                    "$type": "builtins.function"
+                  },
+                  "$type": "garage.torch._functions.NonLinearity"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            },
+            "2": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 256,
+                  "out_features": 256,
+                  "$type": "torch.nn.modules.linear.Linear"
+                },
+                "non_linearity": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "module": {
+                    "$type": "builtins.function"
+                  },
+                  "$type": "garage.torch._functions.NonLinearity"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            }
+          },
+          "$type": "torch.nn.modules.container.ModuleList"
+        },
+        "_output_layers": {
+          "training": true,
+          "_parameters": {},
+          "_buffers": {},
+          "_non_persistent_buffers_set": [],
+          "_backward_pre_hooks": {},
+          "_backward_hooks": {},
+          "_is_full_backward_hook": "None",
+          "_forward_hooks": {},
+          "_forward_hooks_with_kwargs": {},
+          "_forward_hooks_always_called": {},
+          "_forward_pre_hooks": {},
+          "_forward_pre_hooks_with_kwargs": {},
+          "_state_dict_hooks": {},
+          "_state_dict_pre_hooks": {},
+          "_load_state_dict_pre_hooks": {},
+          "_load_state_dict_post_hooks": {},
+          "_modules": {
+            "0": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 256,
+                  "out_features": 1,
+                  "$type": "torch.nn.modules.linear.Linear"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            }
+          },
+          "$type": "torch.nn.modules.container.ModuleList"
+        }
+      },
+      "_output_dim": 1,
+      "$type": "garage.torch.q_functions.continuous_mlp_q_function.ContinuousMLPQFunction"
+    },
+    "_vf": {
+      "_env_spec": {
+        "max_episode_length": "None",
+        "input_space": {
+          "dtype": "dtype('float32')",
+          "bounded_below": "array([ True,  True])",
+          "bounded_above": "array([ True,  True])",
+          "_shape": [
+            2
+          ],
+          "low": "array([-1., -1.], dtype=float32)",
+          "high": "array([1., 1.], dtype=float32)",
+          "low_repr": "-1.0",
+          "high_repr": "1.0",
+          "_np_random": "None",
+          "$type": "akro.box.Box"
+        },
+        "output_space": {
+          "dtype": "dtype('float32')",
+          "bounded_below": "array([ True,  True])",
+          "bounded_above": "array([ True,  True])",
+          "_shape": [
+            2
+          ],
+          "low": "array([-1., -1.], dtype=float32)",
+          "high": "array([1., 1.], dtype=float32)",
+          "low_repr": "-1.0",
+          "high_repr": "1.0",
+          "_np_random": "None",
+          "$type": "akro.box.Box"
+        },
+        "$type": "garage._environment.EnvSpec"
+      },
+      "_obs_dim": 2.0,
+      "_action_dim": 2.0,
+      "training": true,
+      "_parameters": {},
+      "_buffers": {},
+      "_non_persistent_buffers_set": [],
+      "_backward_pre_hooks": {},
+      "_backward_hooks": {},
+      "_is_full_backward_hook": "None",
+      "_forward_hooks": {},
+      "_forward_hooks_with_kwargs": {},
+      "_forward_hooks_always_called": {},
+      "_forward_pre_hooks": {},
+      "_forward_pre_hooks_with_kwargs": {},
+      "_state_dict_hooks": {},
+      "_state_dict_pre_hooks": {},
+      "_load_state_dict_pre_hooks": {},
+      "_load_state_dict_post_hooks": {},
+      "_modules": {
+        "_layers": {
+          "training": true,
+          "_parameters": {},
+          "_buffers": {},
+          "_non_persistent_buffers_set": [],
+          "_backward_pre_hooks": {},
+          "_backward_hooks": {},
+          "_is_full_backward_hook": "None",
+          "_forward_hooks": {},
+          "_forward_hooks_with_kwargs": {},
+          "_forward_hooks_always_called": {},
+          "_forward_pre_hooks": {},
+          "_forward_pre_hooks_with_kwargs": {},
+          "_state_dict_hooks": {},
+          "_state_dict_pre_hooks": {},
+          "_load_state_dict_pre_hooks": {},
+          "_load_state_dict_post_hooks": {},
+          "_modules": {
+            "0": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 4.0,
+                  "out_features": 256,
+                  "$type": "torch.nn.modules.linear.Linear"
+                },
+                "non_linearity": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "module": {
+                    "$type": "builtins.function"
+                  },
+                  "$type": "garage.torch._functions.NonLinearity"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            },
+            "1": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 256,
+                  "out_features": 256,
+                  "$type": "torch.nn.modules.linear.Linear"
+                },
+                "non_linearity": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "module": {
+                    "$type": "builtins.function"
+                  },
+                  "$type": "garage.torch._functions.NonLinearity"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            },
+            "2": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 256,
+                  "out_features": 256,
+                  "$type": "torch.nn.modules.linear.Linear"
+                },
+                "non_linearity": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "module": {
+                    "$type": "builtins.function"
+                  },
+                  "$type": "garage.torch._functions.NonLinearity"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            }
+          },
+          "$type": "torch.nn.modules.container.ModuleList"
+        },
+        "_output_layers": {
+          "training": true,
+          "_parameters": {},
+          "_buffers": {},
+          "_non_persistent_buffers_set": [],
+          "_backward_pre_hooks": {},
+          "_backward_hooks": {},
+          "_is_full_backward_hook": "None",
+          "_forward_hooks": {},
+          "_forward_hooks_with_kwargs": {},
+          "_forward_hooks_always_called": {},
+          "_forward_pre_hooks": {},
+          "_forward_pre_hooks_with_kwargs": {},
+          "_state_dict_hooks": {},
+          "_state_dict_pre_hooks": {},
+          "_load_state_dict_pre_hooks": {},
+          "_load_state_dict_post_hooks": {},
+          "_modules": {
+            "0": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 256,
+                  "out_features": 1,
+                  "$type": "torch.nn.modules.linear.Linear"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            }
+          },
+          "$type": "torch.nn.modules.container.ModuleList"
+        }
+      },
+      "_output_dim": 1,
+      "$type": "garage.torch.q_functions.continuous_mlp_q_function.ContinuousMLPQFunction"
+    },
+    "_num_train_tasks": 4,
+    "_latent_dim": 2,
+    "_policy_mean_reg_coeff": 0.001,
+    "_policy_std_reg_coeff": 0.001,
+    "_policy_pre_activation_coeff": 0.0,
+    "_soft_target_tau": 0.005,
+    "_kl_lambda": 0.1,
+    "_use_information_bottleneck": false,
+    "_use_next_obs_in_context": false,
+    "_n_negative_samples": 12,
+    "_weight_embedding_loss_continuity": "None",
+    "_meta_batch_size": 32,
+    "_num_steps_per_epoch": 5,
+    "_num_initial_steps": 1200,
+    "_num_tasks_sample": 5,
+    "_num_steps_prior": 500,
+    "_num_steps_posterior": 0,
+    "_num_extra_rl_steps_posterior": 400,
+    "_batch_size": 256,
+    "_embedding_batch_size": 64,
+    "_embedding_mini_batch_size": 64,
+    "_discount": 0.99,
+    "_replay_buffer_size": 1000000,
+    "_reward_scale": 10.0,
+    "_update_post_train": 1,
+    "_task_idx": "None",
+    "_single_env": {
+      "_env": {
+        "_goal": "array([-0.86713957,  0.49806522])",
+        "_never_done": false,
+        "_arena_size": 5.0,
+        "_sigma_noise": 0.05,
+        "_step_cnt": 0,
+        "_max_episode_length": 100,
+        "_visualize": false,
+        "_point": "array([0., 0.], dtype=float32)",
+        "_task": {
+          "goal": "array([-0.86713957,  0.49806522])"
+        },
+        "_observation_space": {
+          "dtype": "dtype('float32')",
+          "bounded_below": "array([False, False])",
+          "bounded_above": "array([False, False])",
+          "_shape": [
+            2
+          ],
+          "low": "array([-inf, -inf], dtype=float32)",
+          "high": "array([inf, inf], dtype=float32)",
+          "low_repr": "-inf",
+          "high_repr": "inf",
+          "_np_random": "None",
+          "$type": "akro.box.Box"
+        },
+        "_action_space": {
+          "dtype": "dtype('float32')",
+          "bounded_below": "array([ True,  True])",
+          "bounded_above": "array([ True,  True])",
+          "_shape": [
+            2
+          ],
+          "low": "array([-0.1, -0.1], dtype=float32)",
+          "high": "array([0.1, 0.1], dtype=float32)",
+          "low_repr": "-0.1",
+          "high_repr": "0.1",
+          "_np_random": "None",
+          "$type": "akro.box.Box"
+        },
+        "_spec": {
+          "max_episode_length": 100,
+          "input_space": {
+            "dtype": "dtype('float32')",
+            "bounded_below": "array([ True,  True])",
+            "bounded_above": "array([ True,  True])",
+            "_shape": [
+              2
+            ],
+            "low": "array([-0.1, -0.1], dtype=float32)",
+            "high": "array([0.1, 0.1], dtype=float32)",
+            "low_repr": "-0.1",
+            "high_repr": "0.1",
+            "_np_random": "None",
+            "$type": "akro.box.Box"
+          },
+          "output_space": {
+            "dtype": "dtype('float32')",
+            "bounded_below": "array([False, False])",
+            "bounded_above": "array([False, False])",
+            "_shape": [
+              2
+            ],
+            "low": "array([-inf, -inf], dtype=float32)",
+            "high": "array([inf, inf], dtype=float32)",
+            "low_repr": "-inf",
+            "high_repr": "inf",
+            "_np_random": "None",
+            "$type": "akro.box.Box"
+          },
+          "$type": "garage._environment.EnvSpec"
+        },
+        "$type": "garage.envs.point_env.PointEnv"
+      },
+      "_scale_reward": 1.0,
+      "_normalize_obs": false,
+      "_normalize_reward": false,
+      "_expected_action_scale": 1.0,
+      "_flatten_obs": true,
+      "_obs_alpha": 0.001,
+      "_obs_mean": "array([0., 0.])",
+      "_obs_var": "array([1., 1.])",
+      "_reward_alpha": 0.001,
+      "_reward_mean": 0.0,
+      "_reward_var": 1.0,
+      "$type": "garage.envs.normalized_env.NormalizedEnv"
+    },
+    "max_episode_length": 100,
+    "_sampler": {
+      "_factory": {
+        "n_workers": 1,
+        "_seed": "None",
+        "_max_episode_length": 100,
+        "_worker_class": {
+          "$typename": "garage.torch.algos.pearl.PEARLWorker"
+        },
+        "_worker_args": {},
+        "$type": "garage.sampler.worker_factory.WorkerFactory"
+      },
+      "_agents": [
+        "None"
+      ],
+      "_envs": [
+        {
+          "_env": {
+            "_goal": "array([-0.86713957,  0.49806522])",
+            "_never_done": false,
+            "_arena_size": 5.0,
+            "_sigma_noise": 0.05,
+            "_step_cnt": 0,
+            "_max_episode_length": 100,
+            "_visualize": false,
+            "_point": "array([0., 0.], dtype=float32)",
+            "_task": {
+              "goal": "array([-0.86713957,  0.49806522])"
+            },
+            "_observation_space": {
+              "dtype": "dtype('float32')",
+              "bounded_below": "array([False, False])",
+              "bounded_above": "array([False, False])",
+              "_shape": [
+                2
+              ],
+              "low": "array([-inf, -inf], dtype=float32)",
+              "high": "array([inf, inf], dtype=float32)",
+              "low_repr": "-inf",
+              "high_repr": "inf",
+              "_np_random": "None",
+              "$type": "akro.box.Box"
+            },
+            "_action_space": {
+              "dtype": "dtype('float32')",
+              "bounded_below": "array([ True,  True])",
+              "bounded_above": "array([ True,  True])",
+              "_shape": [
+                2
+              ],
+              "low": "array([-0.1, -0.1], dtype=float32)",
+              "high": "array([0.1, 0.1], dtype=float32)",
+              "low_repr": "-0.1",
+              "high_repr": "0.1",
+              "_np_random": "None",
+              "$type": "akro.box.Box"
+            },
+            "_spec": {
+              "max_episode_length": 100,
+              "input_space": {
+                "dtype": "dtype('float32')",
+                "bounded_below": "array([ True,  True])",
+                "bounded_above": "array([ True,  True])",
+                "_shape": [
+                  2
+                ],
+                "low": "array([-0.1, -0.1], dtype=float32)",
+                "high": "array([0.1, 0.1], dtype=float32)",
+                "low_repr": "-0.1",
+                "high_repr": "0.1",
+                "_np_random": "None",
+                "$type": "akro.box.Box"
+              },
+              "output_space": {
+                "dtype": "dtype('float32')",
+                "bounded_below": "array([False, False])",
+                "bounded_above": "array([False, False])",
+                "_shape": [
+                  2
+                ],
+                "low": "array([-inf, -inf], dtype=float32)",
+                "high": "array([inf, inf], dtype=float32)",
+                "low_repr": "-inf",
+                "high_repr": "inf",
+                "_np_random": "None",
+                "$type": "akro.box.Box"
+              },
+              "$type": "garage._environment.EnvSpec"
+            },
+            "$type": "garage.envs.point_env.PointEnv"
+          },
+          "_scale_reward": 1.0,
+          "_normalize_obs": false,
+          "_normalize_reward": false,
+          "_expected_action_scale": 1.0,
+          "_flatten_obs": true,
+          "_obs_alpha": 0.001,
+          "_obs_mean": "array([0., 0.])",
+          "_obs_var": "array([1., 1.])",
+          "_reward_alpha": 0.001,
+          "_reward_mean": 0.0,
+          "_reward_var": 1.0,
+          "$type": "garage.envs.normalized_env.NormalizedEnv"
+        }
+      ],
+      "_workers": [
+        {
+          "_deterministic": false,
+          "_accum_context": false,
+          "_episode_info": "None",
+          "_seed": "None",
+          "_max_episode_length": 100,
+          "_worker_number": 0,
+          "agent": "None",
+          "env": {
+            "_env": {
+              "_goal": "array([-0.86713957,  0.49806522])",
+              "_never_done": false,
+              "_arena_size": 5.0,
+              "_sigma_noise": 0.05,
+              "_step_cnt": 0,
+              "_max_episode_length": 100,
+              "_visualize": false,
+              "_point": "array([0., 0.], dtype=float32)",
+              "_task": {
+                "goal": "array([-0.86713957,  0.49806522])"
+              },
+              "_observation_space": {
+                "dtype": "dtype('float32')",
+                "bounded_below": "array([False, False])",
+                "bounded_above": "array([False, False])",
+                "_shape": [
+                  2
+                ],
+                "low": "array([-inf, -inf], dtype=float32)",
+                "high": "array([inf, inf], dtype=float32)",
+                "low_repr": "-inf",
+                "high_repr": "inf",
+                "_np_random": "None",
+                "$type": "akro.box.Box"
+              },
+              "_action_space": {
+                "dtype": "dtype('float32')",
+                "bounded_below": "array([ True,  True])",
+                "bounded_above": "array([ True,  True])",
+                "_shape": [
+                  2
+                ],
+                "low": "array([-0.1, -0.1], dtype=float32)",
+                "high": "array([0.1, 0.1], dtype=float32)",
+                "low_repr": "-0.1",
+                "high_repr": "0.1",
+                "_np_random": "None",
+                "$type": "akro.box.Box"
+              },
+              "_spec": {
+                "max_episode_length": 100,
+                "input_space": {
+                  "dtype": "dtype('float32')",
+                  "bounded_below": "array([ True,  True])",
+                  "bounded_above": "array([ True,  True])",
+                  "_shape": [
+                    2
+                  ],
+                  "low": "array([-0.1, -0.1], dtype=float32)",
+                  "high": "array([0.1, 0.1], dtype=float32)",
+                  "low_repr": "-0.1",
+                  "high_repr": "0.1",
+                  "_np_random": "None",
+                  "$type": "akro.box.Box"
+                },
+                "output_space": {
+                  "dtype": "dtype('float32')",
+                  "bounded_below": "array([False, False])",
+                  "bounded_above": "array([False, False])",
+                  "_shape": [
+                    2
+                  ],
+                  "low": "array([-inf, -inf], dtype=float32)",
+                  "high": "array([inf, inf], dtype=float32)",
+                  "low_repr": "-inf",
+                  "high_repr": "inf",
+                  "_np_random": "None",
+                  "$type": "akro.box.Box"
+                },
+                "$type": "garage._environment.EnvSpec"
+              },
+              "$type": "garage.envs.point_env.PointEnv"
+            },
+            "_scale_reward": 1.0,
+            "_normalize_obs": false,
+            "_normalize_reward": false,
+            "_expected_action_scale": 1.0,
+            "_flatten_obs": true,
+            "_obs_alpha": 0.001,
+            "_obs_mean": "array([0., 0.])",
+            "_obs_var": "array([1., 1.])",
+            "_reward_alpha": 0.001,
+            "_reward_mean": 0.0,
+            "_reward_var": 1.0,
+            "$type": "garage.envs.normalized_env.NormalizedEnv"
+          },
+          "_env_steps": [],
+          "_observations": [],
+          "_last_observations": [],
+          "_agent_infos": {},
+          "_lengths": [],
+          "_prev_obs": "None",
+          "_eps_length": 0,
+          "_episode_infos": {},
+          "$type": "garage.torch.algos.pearl.PEARLWorker"
+        }
+      ],
+      "total_env_steps": 0,
+      "$type": "garage.sampler.local_sampler.LocalSampler"
+    },
+    "_is_resuming": false,
+    "_train_evaluator": {
+      "_test_task_sampler": "None",
+      "_test_tasks": [
+        {
+          "_env_type": {
+            "$typename": "garage.envs.point_env.PointEnv"
+          },
+          "_task": {
+            "goal": "array([-0.86713957,  0.49806522])"
+          },
+          "_wrapper_cons": {
+            "$type": "builtins.function"
+          },
+          "$type": "garage.sampler.env_update.SetTaskUpdate"
+        },
+        {
+          "_env_type": {
+            "$typename": "garage.envs.point_env.PointEnv"
+          },
+          "_task": {
+            "goal": "array([-0.18537819, -0.98266725])"
+          },
+          "_wrapper_cons": {
+            "$type": "builtins.function"
+          },
+          "$type": "garage.sampler.env_update.SetTaskUpdate"
+        },
+        {
+          "_env_type": {
+            "$typename": "garage.envs.point_env.PointEnv"
+          },
+          "_task": {
+            "goal": "array([9.99999742e-01, 7.18638110e-04])"
+          },
+          "_wrapper_cons": {
+            "$type": "builtins.function"
+          },
+          "$type": "garage.sampler.env_update.SetTaskUpdate"
+        },
+        {
+          "_env_type": {
+            "$typename": "garage.envs.point_env.PointEnv"
+          },
+          "_task": {
+            "goal": "array([-0.32292198,  0.94642559])"
+          },
+          "_wrapper_cons": {
+            "$type": "builtins.function"
+          },
+          "$type": "garage.sampler.env_update.SetTaskUpdate"
+        }
+      ],
+      "_worker_class": {
+        "$typename": "garage.torch.algos.custom.CLMeta.PEARLWorker"
+      },
+      "_worker_args": {
+        "deterministic": true,
+        "accum_context": true
+      },
+      "_n_test_tasks": 4,
+      "_n_test_episodes": 1,
+      "_n_exploration_eps": 10,
+      "_eval_itr": 0,
+      "_prefix": "EvaluationTrain",
+      "_test_task_names": "None",
+      "_test_sampler": "None",
+      "_max_episode_length": "None",
+      "_return_task_embeddings": false,
+      "_log_wandb": true,
+      "_hard_coded_embeddings": "None",
+      "$type": "garage.experiment.meta_evaluator.MetaEvaluator"
+    },
+    "_test_evaluator": {
+      "_test_task_sampler": {
+        "_env_constructor": {
+          "$typename": "garage.envs.point_env.PointEnv"
+        },
+        "_env": {
+          "_goal": "array([1., 1.], dtype=float32)",
+          "_never_done": false,
+          "_arena_size": 5.0,
+          "_sigma_noise": 0.05,
+          "_step_cnt": 0,
+          "_max_episode_length": 100,
+          "_visualize": false,
+          "_point": "array([0., 0.], dtype=float32)",
+          "_task": {
+            "goal": "array([1., 1.], dtype=float32)"
+          },
+          "_observation_space": {
+            "dtype": "dtype('float32')",
+            "bounded_below": "array([False, False])",
+            "bounded_above": "array([False, False])",
+            "_shape": [
+              2
+            ],
+            "low": "array([-inf, -inf], dtype=float32)",
+            "high": "array([inf, inf], dtype=float32)",
+            "low_repr": "-inf",
+            "high_repr": "inf",
+            "_np_random": "None",
+            "$type": "akro.box.Box"
+          },
+          "_action_space": {
+            "dtype": "dtype('float32')",
+            "bounded_below": "array([ True,  True])",
+            "bounded_above": "array([ True,  True])",
+            "_shape": [
+              2
+            ],
+            "low": "array([-0.1, -0.1], dtype=float32)",
+            "high": "array([0.1, 0.1], dtype=float32)",
+            "low_repr": "-0.1",
+            "high_repr": "0.1",
+            "_np_random": "None",
+            "$type": "akro.box.Box"
+          },
+          "_spec": {
+            "max_episode_length": 100,
+            "input_space": {
+              "dtype": "dtype('float32')",
+              "bounded_below": "array([ True,  True])",
+              "bounded_above": "array([ True,  True])",
+              "_shape": [
+                2
+              ],
+              "low": "array([-0.1, -0.1], dtype=float32)",
+              "high": "array([0.1, 0.1], dtype=float32)",
+              "low_repr": "-0.1",
+              "high_repr": "0.1",
+              "_np_random": "None",
+              "$type": "akro.box.Box"
+            },
+            "output_space": {
+              "dtype": "dtype('float32')",
+              "bounded_below": "array([False, False])",
+              "bounded_above": "array([False, False])",
+              "_shape": [
+                2
+              ],
+              "low": "array([-inf, -inf], dtype=float32)",
+              "high": "array([inf, inf], dtype=float32)",
+              "low_repr": "-inf",
+              "high_repr": "inf",
+              "_np_random": "None",
+              "$type": "akro.box.Box"
+            },
+            "$type": "garage._environment.EnvSpec"
+          },
+          "$type": "garage.envs.point_env.PointEnv"
+        },
+        "_wrapper": {
+          "$type": "builtins.function"
+        },
+        "$type": "garage.experiment.task_sampler.SetTaskSampler"
+      },
+      "_test_tasks": "None",
+      "_worker_class": {
+        "$typename": "garage.torch.algos.custom.CLMeta.PEARLWorker"
+      },
+      "_worker_args": {
+        "deterministic": true,
+        "accum_context": true
+      },
+      "_n_test_tasks": 5,
+      "_n_test_episodes": 1,
+      "_n_exploration_eps": 10,
+      "_eval_itr": 0,
+      "_prefix": "EvaluationTest",
+      "_test_task_names": "None",
+      "_test_sampler": "None",
+      "_max_episode_length": "None",
+      "_return_task_embeddings": false,
+      "_log_wandb": true,
+      "_hard_coded_embeddings": "None",
+      "$type": "garage.experiment.meta_evaluator.MetaEvaluator"
+    },
+    "_policy": {
+      "training": true,
+      "_parameters": {},
+      "_buffers": {
+        "z": {
+          "$type": "torch.Tensor"
+        },
+        "z_means": {
+          "$type": "torch.Tensor"
+        },
+        "z_vars": {
+          "$type": "torch.Tensor"
+        }
+      },
+      "_non_persistent_buffers_set": [],
+      "_backward_pre_hooks": {},
+      "_backward_hooks": {},
+      "_is_full_backward_hook": "None",
+      "_forward_hooks": {},
+      "_forward_hooks_with_kwargs": {},
+      "_forward_hooks_always_called": {},
+      "_forward_pre_hooks": {},
+      "_forward_pre_hooks_with_kwargs": {},
+      "_state_dict_hooks": {},
+      "_state_dict_pre_hooks": {},
+      "_load_state_dict_pre_hooks": {},
+      "_load_state_dict_post_hooks": {},
+      "_modules": {
+        "_context_encoder": {
+          "training": true,
+          "_parameters": {},
+          "_buffers": {},
+          "_non_persistent_buffers_set": [],
+          "_backward_pre_hooks": {},
+          "_backward_hooks": {},
+          "_is_full_backward_hook": "None",
+          "_forward_hooks": {},
+          "_forward_hooks_with_kwargs": {},
+          "_forward_hooks_always_called": {},
+          "_forward_pre_hooks": {},
+          "_forward_pre_hooks_with_kwargs": {},
+          "_state_dict_hooks": {},
+          "_state_dict_pre_hooks": {},
+          "_load_state_dict_pre_hooks": {},
+          "_load_state_dict_post_hooks": {},
+          "_modules": {
+            "_layers": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "0": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {
+                    "linear": {
+                      "training": true,
+                      "_parameters": {
+                        "weight": {
+                          "$type": "torch.nn.parameter.Parameter"
+                        },
+                        "bias": {
+                          "$type": "torch.nn.parameter.Parameter"
+                        }
+                      },
+                      "_buffers": {},
+                      "_non_persistent_buffers_set": [],
+                      "_backward_pre_hooks": {},
+                      "_backward_hooks": {},
+                      "_is_full_backward_hook": "None",
+                      "_forward_hooks": {},
+                      "_forward_hooks_with_kwargs": {},
+                      "_forward_hooks_always_called": {},
+                      "_forward_pre_hooks": {},
+                      "_forward_pre_hooks_with_kwargs": {},
+                      "_state_dict_hooks": {},
+                      "_state_dict_pre_hooks": {},
+                      "_load_state_dict_pre_hooks": {},
+                      "_load_state_dict_post_hooks": {},
+                      "_modules": {},
+                      "in_features": 5,
+                      "out_features": 256,
+                      "$type": "torch.nn.modules.linear.Linear"
+                    },
+                    "non_linearity": {
+                      "training": true,
+                      "_parameters": {},
+                      "_buffers": {},
+                      "_non_persistent_buffers_set": [],
+                      "_backward_pre_hooks": {},
+                      "_backward_hooks": {},
+                      "_is_full_backward_hook": "None",
+                      "_forward_hooks": {},
+                      "_forward_hooks_with_kwargs": {},
+                      "_forward_hooks_always_called": {},
+                      "_forward_pre_hooks": {},
+                      "_forward_pre_hooks_with_kwargs": {},
+                      "_state_dict_hooks": {},
+                      "_state_dict_pre_hooks": {},
+                      "_load_state_dict_pre_hooks": {},
+                      "_load_state_dict_post_hooks": {},
+                      "_modules": {},
+                      "module": {
+                        "$type": "builtins.function"
+                      },
+                      "$type": "garage.torch._functions.NonLinearity"
+                    }
+                  },
+                  "$type": "torch.nn.modules.container.Sequential"
+                },
+                "1": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {
+                    "linear": {
+                      "training": true,
+                      "_parameters": {
+                        "weight": {
+                          "$type": "torch.nn.parameter.Parameter"
+                        },
+                        "bias": {
+                          "$type": "torch.nn.parameter.Parameter"
+                        }
+                      },
+                      "_buffers": {},
+                      "_non_persistent_buffers_set": [],
+                      "_backward_pre_hooks": {},
+                      "_backward_hooks": {},
+                      "_is_full_backward_hook": "None",
+                      "_forward_hooks": {},
+                      "_forward_hooks_with_kwargs": {},
+                      "_forward_hooks_always_called": {},
+                      "_forward_pre_hooks": {},
+                      "_forward_pre_hooks_with_kwargs": {},
+                      "_state_dict_hooks": {},
+                      "_state_dict_pre_hooks": {},
+                      "_load_state_dict_pre_hooks": {},
+                      "_load_state_dict_post_hooks": {},
+                      "_modules": {},
+                      "in_features": 256,
+                      "out_features": 256,
+                      "$type": "torch.nn.modules.linear.Linear"
+                    },
+                    "non_linearity": {
+                      "training": true,
+                      "_parameters": {},
+                      "_buffers": {},
+                      "_non_persistent_buffers_set": [],
+                      "_backward_pre_hooks": {},
+                      "_backward_hooks": {},
+                      "_is_full_backward_hook": "None",
+                      "_forward_hooks": {},
+                      "_forward_hooks_with_kwargs": {},
+                      "_forward_hooks_always_called": {},
+                      "_forward_pre_hooks": {},
+                      "_forward_pre_hooks_with_kwargs": {},
+                      "_state_dict_hooks": {},
+                      "_state_dict_pre_hooks": {},
+                      "_load_state_dict_pre_hooks": {},
+                      "_load_state_dict_post_hooks": {},
+                      "_modules": {},
+                      "module": {
+                        "$type": "builtins.function"
+                      },
+                      "$type": "garage.torch._functions.NonLinearity"
+                    }
+                  },
+                  "$type": "torch.nn.modules.container.Sequential"
+                },
+                "2": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {
+                    "linear": {
+                      "training": true,
+                      "_parameters": {
+                        "weight": {
+                          "$type": "torch.nn.parameter.Parameter"
+                        },
+                        "bias": {
+                          "$type": "torch.nn.parameter.Parameter"
+                        }
+                      },
+                      "_buffers": {},
+                      "_non_persistent_buffers_set": [],
+                      "_backward_pre_hooks": {},
+                      "_backward_hooks": {},
+                      "_is_full_backward_hook": "None",
+                      "_forward_hooks": {},
+                      "_forward_hooks_with_kwargs": {},
+                      "_forward_hooks_always_called": {},
+                      "_forward_pre_hooks": {},
+                      "_forward_pre_hooks_with_kwargs": {},
+                      "_state_dict_hooks": {},
+                      "_state_dict_pre_hooks": {},
+                      "_load_state_dict_pre_hooks": {},
+                      "_load_state_dict_post_hooks": {},
+                      "_modules": {},
+                      "in_features": 256,
+                      "out_features": 256,
+                      "$type": "torch.nn.modules.linear.Linear"
+                    },
+                    "non_linearity": {
+                      "training": true,
+                      "_parameters": {},
+                      "_buffers": {},
+                      "_non_persistent_buffers_set": [],
+                      "_backward_pre_hooks": {},
+                      "_backward_hooks": {},
+                      "_is_full_backward_hook": "None",
+                      "_forward_hooks": {},
+                      "_forward_hooks_with_kwargs": {},
+                      "_forward_hooks_always_called": {},
+                      "_forward_pre_hooks": {},
+                      "_forward_pre_hooks_with_kwargs": {},
+                      "_state_dict_hooks": {},
+                      "_state_dict_pre_hooks": {},
+                      "_load_state_dict_pre_hooks": {},
+                      "_load_state_dict_post_hooks": {},
+                      "_modules": {},
+                      "module": {
+                        "$type": "builtins.function"
+                      },
+                      "$type": "garage.torch._functions.NonLinearity"
+                    }
+                  },
+                  "$type": "torch.nn.modules.container.Sequential"
+                }
+              },
+              "$type": "torch.nn.modules.container.ModuleList"
+            },
+            "_output_layers": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "0": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {
+                    "linear": {
+                      "training": true,
+                      "_parameters": {
+                        "weight": {
+                          "$type": "torch.nn.parameter.Parameter"
+                        },
+                        "bias": {
+                          "$type": "torch.nn.parameter.Parameter"
+                        }
+                      },
+                      "_buffers": {},
+                      "_non_persistent_buffers_set": [],
+                      "_backward_pre_hooks": {},
+                      "_backward_hooks": {},
+                      "_is_full_backward_hook": "None",
+                      "_forward_hooks": {},
+                      "_forward_hooks_with_kwargs": {},
+                      "_forward_hooks_always_called": {},
+                      "_forward_pre_hooks": {},
+                      "_forward_pre_hooks_with_kwargs": {},
+                      "_state_dict_hooks": {},
+                      "_state_dict_pre_hooks": {},
+                      "_load_state_dict_pre_hooks": {},
+                      "_load_state_dict_post_hooks": {},
+                      "_modules": {},
+                      "in_features": 256,
+                      "out_features": 2,
+                      "$type": "torch.nn.modules.linear.Linear"
+                    }
+                  },
+                  "$type": "torch.nn.modules.container.Sequential"
+                }
+              },
+              "$type": "torch.nn.modules.container.ModuleList"
+            }
+          },
+          "_output_dim": 2,
+          "$type": "garage.torch.embeddings.mlp_encoder.MLPEncoder"
+        },
+        "_policy": {
+          "training": true,
+          "_parameters": {},
+          "_buffers": {},
+          "_non_persistent_buffers_set": [],
+          "_backward_pre_hooks": {},
+          "_backward_hooks": {},
+          "_is_full_backward_hook": "None",
+          "_forward_hooks": {},
+          "_forward_hooks_with_kwargs": {},
+          "_forward_hooks_always_called": {},
+          "_forward_pre_hooks": {},
+          "_forward_pre_hooks_with_kwargs": {},
+          "_state_dict_hooks": {},
+          "_state_dict_pre_hooks": {},
+          "_load_state_dict_pre_hooks": {},
+          "_load_state_dict_post_hooks": {},
+          "_modules": {
+            "_module": {
+              "training": true,
+              "_parameters": {
+                "_log_std": {
+                  "$type": "torch.nn.parameter.Parameter"
+                }
+              },
+              "_buffers": {
+                "min_std_param": {
+                  "$type": "torch.Tensor"
+                },
+                "max_std_param": {
+                  "$type": "torch.Tensor"
+                }
+              },
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "_shared_mean_log_std_network": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {
+                    "_layers": {
+                      "training": true,
+                      "_parameters": {},
+                      "_buffers": {},
+                      "_non_persistent_buffers_set": [],
+                      "_backward_pre_hooks": {},
+                      "_backward_hooks": {},
+                      "_is_full_backward_hook": "None",
+                      "_forward_hooks": {},
+                      "_forward_hooks_with_kwargs": {},
+                      "_forward_hooks_always_called": {},
+                      "_forward_pre_hooks": {},
+                      "_forward_pre_hooks_with_kwargs": {},
+                      "_state_dict_hooks": {},
+                      "_state_dict_pre_hooks": {},
+                      "_load_state_dict_pre_hooks": {},
+                      "_load_state_dict_post_hooks": {},
+                      "_modules": {
+                        "0": {
+                          "training": true,
+                          "_parameters": {},
+                          "_buffers": {},
+                          "_non_persistent_buffers_set": [],
+                          "_backward_pre_hooks": {},
+                          "_backward_hooks": {},
+                          "_is_full_backward_hook": "None",
+                          "_forward_hooks": {},
+                          "_forward_hooks_with_kwargs": {},
+                          "_forward_hooks_always_called": {},
+                          "_forward_pre_hooks": {},
+                          "_forward_pre_hooks_with_kwargs": {},
+                          "_state_dict_hooks": {},
+                          "_state_dict_pre_hooks": {},
+                          "_load_state_dict_pre_hooks": {},
+                          "_load_state_dict_post_hooks": {},
+                          "_modules": {
+                            "linear": {
+                              "training": true,
+                              "_parameters": {
+                                "weight": {
+                                  "$type": "torch.nn.parameter.Parameter"
+                                },
+                                "bias": {
+                                  "$type": "torch.nn.parameter.Parameter"
+                                }
+                              },
+                              "_buffers": {},
+                              "_non_persistent_buffers_set": [],
+                              "_backward_pre_hooks": {},
+                              "_backward_hooks": {},
+                              "_is_full_backward_hook": "None",
+                              "_forward_hooks": {},
+                              "_forward_hooks_with_kwargs": {},
+                              "_forward_hooks_always_called": {},
+                              "_forward_pre_hooks": {},
+                              "_forward_pre_hooks_with_kwargs": {},
+                              "_state_dict_hooks": {},
+                              "_state_dict_pre_hooks": {},
+                              "_load_state_dict_pre_hooks": {},
+                              "_load_state_dict_post_hooks": {},
+                              "_modules": {},
+                              "in_features": 4.0,
+                              "out_features": 256,
+                              "$type": "torch.nn.modules.linear.Linear"
+                            },
+                            "non_linearity": {
+                              "training": true,
+                              "_parameters": {},
+                              "_buffers": {},
+                              "_non_persistent_buffers_set": [],
+                              "_backward_pre_hooks": {},
+                              "_backward_hooks": {},
+                              "_is_full_backward_hook": "None",
+                              "_forward_hooks": {},
+                              "_forward_hooks_with_kwargs": {},
+                              "_forward_hooks_always_called": {},
+                              "_forward_pre_hooks": {},
+                              "_forward_pre_hooks_with_kwargs": {},
+                              "_state_dict_hooks": {},
+                              "_state_dict_pre_hooks": {},
+                              "_load_state_dict_pre_hooks": {},
+                              "_load_state_dict_post_hooks": {},
+                              "_modules": {
+                                "module": {
+                                  "training": true,
+                                  "_parameters": {},
+                                  "_buffers": {},
+                                  "_non_persistent_buffers_set": [],
+                                  "_backward_pre_hooks": {},
+                                  "_backward_hooks": {},
+                                  "_is_full_backward_hook": "None",
+                                  "_forward_hooks": {},
+                                  "_forward_hooks_with_kwargs": {},
+                                  "_forward_hooks_always_called": {},
+                                  "_forward_pre_hooks": {},
+                                  "_forward_pre_hooks_with_kwargs": {},
+                                  "_state_dict_hooks": {},
+                                  "_state_dict_pre_hooks": {},
+                                  "_load_state_dict_pre_hooks": {},
+                                  "_load_state_dict_post_hooks": {},
+                                  "_modules": {},
+                                  "inplace": false,
+                                  "$type": "torch.nn.modules.activation.ReLU"
+                                }
+                              },
+                              "$type": "garage.torch._functions.NonLinearity"
+                            }
+                          },
+                          "$type": "torch.nn.modules.container.Sequential"
+                        },
+                        "1": {
+                          "training": true,
+                          "_parameters": {},
+                          "_buffers": {},
+                          "_non_persistent_buffers_set": [],
+                          "_backward_pre_hooks": {},
+                          "_backward_hooks": {},
+                          "_is_full_backward_hook": "None",
+                          "_forward_hooks": {},
+                          "_forward_hooks_with_kwargs": {},
+                          "_forward_hooks_always_called": {},
+                          "_forward_pre_hooks": {},
+                          "_forward_pre_hooks_with_kwargs": {},
+                          "_state_dict_hooks": {},
+                          "_state_dict_pre_hooks": {},
+                          "_load_state_dict_pre_hooks": {},
+                          "_load_state_dict_post_hooks": {},
+                          "_modules": {
+                            "linear": {
+                              "training": true,
+                              "_parameters": {
+                                "weight": {
+                                  "$type": "torch.nn.parameter.Parameter"
+                                },
+                                "bias": {
+                                  "$type": "torch.nn.parameter.Parameter"
+                                }
+                              },
+                              "_buffers": {},
+                              "_non_persistent_buffers_set": [],
+                              "_backward_pre_hooks": {},
+                              "_backward_hooks": {},
+                              "_is_full_backward_hook": "None",
+                              "_forward_hooks": {},
+                              "_forward_hooks_with_kwargs": {},
+                              "_forward_hooks_always_called": {},
+                              "_forward_pre_hooks": {},
+                              "_forward_pre_hooks_with_kwargs": {},
+                              "_state_dict_hooks": {},
+                              "_state_dict_pre_hooks": {},
+                              "_load_state_dict_pre_hooks": {},
+                              "_load_state_dict_post_hooks": {},
+                              "_modules": {},
+                              "in_features": 256,
+                              "out_features": 256,
+                              "$type": "torch.nn.modules.linear.Linear"
+                            },
+                            "non_linearity": {
+                              "training": true,
+                              "_parameters": {},
+                              "_buffers": {},
+                              "_non_persistent_buffers_set": [],
+                              "_backward_pre_hooks": {},
+                              "_backward_hooks": {},
+                              "_is_full_backward_hook": "None",
+                              "_forward_hooks": {},
+                              "_forward_hooks_with_kwargs": {},
+                              "_forward_hooks_always_called": {},
+                              "_forward_pre_hooks": {},
+                              "_forward_pre_hooks_with_kwargs": {},
+                              "_state_dict_hooks": {},
+                              "_state_dict_pre_hooks": {},
+                              "_load_state_dict_pre_hooks": {},
+                              "_load_state_dict_post_hooks": {},
+                              "_modules": {
+                                "module": {
+                                  "training": true,
+                                  "_parameters": {},
+                                  "_buffers": {},
+                                  "_non_persistent_buffers_set": [],
+                                  "_backward_pre_hooks": {},
+                                  "_backward_hooks": {},
+                                  "_is_full_backward_hook": "None",
+                                  "_forward_hooks": {},
+                                  "_forward_hooks_with_kwargs": {},
+                                  "_forward_hooks_always_called": {},
+                                  "_forward_pre_hooks": {},
+                                  "_forward_pre_hooks_with_kwargs": {},
+                                  "_state_dict_hooks": {},
+                                  "_state_dict_pre_hooks": {},
+                                  "_load_state_dict_pre_hooks": {},
+                                  "_load_state_dict_post_hooks": {},
+                                  "_modules": {},
+                                  "inplace": false,
+                                  "$type": "torch.nn.modules.activation.ReLU"
+                                }
+                              },
+                              "$type": "garage.torch._functions.NonLinearity"
+                            }
+                          },
+                          "$type": "torch.nn.modules.container.Sequential"
+                        },
+                        "2": {
+                          "training": true,
+                          "_parameters": {},
+                          "_buffers": {},
+                          "_non_persistent_buffers_set": [],
+                          "_backward_pre_hooks": {},
+                          "_backward_hooks": {},
+                          "_is_full_backward_hook": "None",
+                          "_forward_hooks": {},
+                          "_forward_hooks_with_kwargs": {},
+                          "_forward_hooks_always_called": {},
+                          "_forward_pre_hooks": {},
+                          "_forward_pre_hooks_with_kwargs": {},
+                          "_state_dict_hooks": {},
+                          "_state_dict_pre_hooks": {},
+                          "_load_state_dict_pre_hooks": {},
+                          "_load_state_dict_post_hooks": {},
+                          "_modules": {
+                            "linear": {
+                              "training": true,
+                              "_parameters": {
+                                "weight": {
+                                  "$type": "torch.nn.parameter.Parameter"
+                                },
+                                "bias": {
+                                  "$type": "torch.nn.parameter.Parameter"
+                                }
+                              },
+                              "_buffers": {},
+                              "_non_persistent_buffers_set": [],
+                              "_backward_pre_hooks": {},
+                              "_backward_hooks": {},
+                              "_is_full_backward_hook": "None",
+                              "_forward_hooks": {},
+                              "_forward_hooks_with_kwargs": {},
+                              "_forward_hooks_always_called": {},
+                              "_forward_pre_hooks": {},
+                              "_forward_pre_hooks_with_kwargs": {},
+                              "_state_dict_hooks": {},
+                              "_state_dict_pre_hooks": {},
+                              "_load_state_dict_pre_hooks": {},
+                              "_load_state_dict_post_hooks": {},
+                              "_modules": {},
+                              "in_features": 256,
+                              "out_features": 256,
+                              "$type": "torch.nn.modules.linear.Linear"
+                            },
+                            "non_linearity": {
+                              "training": true,
+                              "_parameters": {},
+                              "_buffers": {},
+                              "_non_persistent_buffers_set": [],
+                              "_backward_pre_hooks": {},
+                              "_backward_hooks": {},
+                              "_is_full_backward_hook": "None",
+                              "_forward_hooks": {},
+                              "_forward_hooks_with_kwargs": {},
+                              "_forward_hooks_always_called": {},
+                              "_forward_pre_hooks": {},
+                              "_forward_pre_hooks_with_kwargs": {},
+                              "_state_dict_hooks": {},
+                              "_state_dict_pre_hooks": {},
+                              "_load_state_dict_pre_hooks": {},
+                              "_load_state_dict_post_hooks": {},
+                              "_modules": {
+                                "module": {
+                                  "training": true,
+                                  "_parameters": {},
+                                  "_buffers": {},
+                                  "_non_persistent_buffers_set": [],
+                                  "_backward_pre_hooks": {},
+                                  "_backward_hooks": {},
+                                  "_is_full_backward_hook": "None",
+                                  "_forward_hooks": {},
+                                  "_forward_hooks_with_kwargs": {},
+                                  "_forward_hooks_always_called": {},
+                                  "_forward_pre_hooks": {},
+                                  "_forward_pre_hooks_with_kwargs": {},
+                                  "_state_dict_hooks": {},
+                                  "_state_dict_pre_hooks": {},
+                                  "_load_state_dict_pre_hooks": {},
+                                  "_load_state_dict_post_hooks": {},
+                                  "_modules": {},
+                                  "inplace": false,
+                                  "$type": "torch.nn.modules.activation.ReLU"
+                                }
+                              },
+                              "$type": "garage.torch._functions.NonLinearity"
+                            }
+                          },
+                          "$type": "torch.nn.modules.container.Sequential"
+                        }
+                      },
+                      "$type": "torch.nn.modules.container.ModuleList"
+                    },
+                    "_output_layers": {
+                      "training": true,
+                      "_parameters": {},
+                      "_buffers": {},
+                      "_non_persistent_buffers_set": [],
+                      "_backward_pre_hooks": {},
+                      "_backward_hooks": {},
+                      "_is_full_backward_hook": "None",
+                      "_forward_hooks": {},
+                      "_forward_hooks_with_kwargs": {},
+                      "_forward_hooks_always_called": {},
+                      "_forward_pre_hooks": {},
+                      "_forward_pre_hooks_with_kwargs": {},
+                      "_state_dict_hooks": {},
+                      "_state_dict_pre_hooks": {},
+                      "_load_state_dict_pre_hooks": {},
+                      "_load_state_dict_post_hooks": {},
+                      "_modules": {
+                        "0": {
+                          "training": true,
+                          "_parameters": {},
+                          "_buffers": {},
+                          "_non_persistent_buffers_set": [],
+                          "_backward_pre_hooks": {},
+                          "_backward_hooks": {},
+                          "_is_full_backward_hook": "None",
+                          "_forward_hooks": {},
+                          "_forward_hooks_with_kwargs": {},
+                          "_forward_hooks_always_called": {},
+                          "_forward_pre_hooks": {},
+                          "_forward_pre_hooks_with_kwargs": {},
+                          "_state_dict_hooks": {},
+                          "_state_dict_pre_hooks": {},
+                          "_load_state_dict_pre_hooks": {},
+                          "_load_state_dict_post_hooks": {},
+                          "_modules": {
+                            "linear": {
+                              "training": true,
+                              "_parameters": {
+                                "weight": {
+                                  "$type": "torch.nn.parameter.Parameter"
+                                },
+                                "bias": {
+                                  "$type": "torch.nn.parameter.Parameter"
+                                }
+                              },
+                              "_buffers": {},
+                              "_non_persistent_buffers_set": [],
+                              "_backward_pre_hooks": {},
+                              "_backward_hooks": {},
+                              "_is_full_backward_hook": "None",
+                              "_forward_hooks": {},
+                              "_forward_hooks_with_kwargs": {},
+                              "_forward_hooks_always_called": {},
+                              "_forward_pre_hooks": {},
+                              "_forward_pre_hooks_with_kwargs": {},
+                              "_state_dict_hooks": {},
+                              "_state_dict_pre_hooks": {},
+                              "_load_state_dict_pre_hooks": {},
+                              "_load_state_dict_post_hooks": {},
+                              "_modules": {},
+                              "in_features": 256,
+                              "out_features": 2.0,
+                              "$type": "torch.nn.modules.linear.Linear"
+                            }
+                          },
+                          "$type": "torch.nn.modules.container.Sequential"
+                        },
+                        "1": {
+                          "training": true,
+                          "_parameters": {},
+                          "_buffers": {},
+                          "_non_persistent_buffers_set": [],
+                          "_backward_pre_hooks": {},
+                          "_backward_hooks": {},
+                          "_is_full_backward_hook": "None",
+                          "_forward_hooks": {},
+                          "_forward_hooks_with_kwargs": {},
+                          "_forward_hooks_always_called": {},
+                          "_forward_pre_hooks": {},
+                          "_forward_pre_hooks_with_kwargs": {},
+                          "_state_dict_hooks": {},
+                          "_state_dict_pre_hooks": {},
+                          "_load_state_dict_pre_hooks": {},
+                          "_load_state_dict_post_hooks": {},
+                          "_modules": {
+                            "linear": {
+                              "training": true,
+                              "_parameters": {
+                                "weight": {
+                                  "$type": "torch.nn.parameter.Parameter"
+                                },
+                                "bias": {
+                                  "$type": "torch.nn.parameter.Parameter"
+                                }
+                              },
+                              "_buffers": {},
+                              "_non_persistent_buffers_set": [],
+                              "_backward_pre_hooks": {},
+                              "_backward_hooks": {},
+                              "_is_full_backward_hook": "None",
+                              "_forward_hooks": {},
+                              "_forward_hooks_with_kwargs": {},
+                              "_forward_hooks_always_called": {},
+                              "_forward_pre_hooks": {},
+                              "_forward_pre_hooks_with_kwargs": {},
+                              "_state_dict_hooks": {},
+                              "_state_dict_pre_hooks": {},
+                              "_load_state_dict_pre_hooks": {},
+                              "_load_state_dict_post_hooks": {},
+                              "_modules": {},
+                              "in_features": 256,
+                              "out_features": 2.0,
+                              "$type": "torch.nn.modules.linear.Linear"
+                            }
+                          },
+                          "$type": "torch.nn.modules.container.Sequential"
+                        }
+                      },
+                      "$type": "torch.nn.modules.container.ModuleList"
+                    }
+                  },
+                  "$type": "garage.torch.modules.multi_headed_mlp_module.MultiHeadedMLPModule"
+                }
+              },
+              "_input_dim": 4.0,
+              "_hidden_sizes": [
+                256,
+                256,
+                256
+              ],
+              "_action_dim": 2.0,
+              "_learn_std": true,
+              "_std_hidden_sizes": [
+                32,
+                32
+              ],
+              "_min_std": 2.061153622438558e-09,
+              "_max_std": 7.38905609893065,
+              "_std_hidden_nonlinearity": {
+                "$function": "torch.tanh"
+              },
+              "_std_hidden_w_init": {
+                "$type": "builtins.function"
+              },
+              "_std_hidden_b_init": {
+                "$type": "builtins.function"
+              },
+              "_std_output_nonlinearity": "None",
+              "_std_output_w_init": {
+                "$type": "builtins.function"
+              },
+              "_std_parameterization": "exp",
+              "_hidden_nonlinearity": {
+                "$typename": "torch.nn.modules.activation.ReLU"
+              },
+              "_hidden_w_init": {
+                "$type": "builtins.function"
+              },
+              "_hidden_b_init": {
+                "$type": "builtins.function"
+              },
+              "_output_nonlinearity": "None",
+              "_output_w_init": {
+                "$type": "builtins.function"
+              },
+              "_output_b_init": {
+                "$type": "builtins.function"
+              },
+              "_layer_normalization": false,
+              "_norm_dist_class": {
+                "$typename": "garage.torch.distributions.tanh_normal.TanhNormal"
+              },
+              "_init_std": {
+                "$type": "torch.Tensor"
+              },
+              "_min_std_param": {
+                "$type": "torch.Tensor"
+              },
+              "_max_std_param": {
+                "$type": "torch.Tensor"
+              },
+              "$type": "garage.torch.modules.gaussian_mlp_module.GaussianMLPTwoHeadedModule"
+            }
+          },
+          "_env_spec": {
+            "max_episode_length": "None",
+            "input_space": {
+              "dtype": "dtype('float32')",
+              "bounded_below": "array([ True,  True])",
+              "bounded_above": "array([ True,  True])",
+              "_shape": [
+                2
+              ],
+              "low": "array([-1., -1.], dtype=float32)",
+              "high": "array([1., 1.], dtype=float32)",
+              "low_repr": "-1.0",
+              "high_repr": "1.0",
+              "_np_random": "None",
+              "$type": "akro.box.Box"
+            },
+            "output_space": {
+              "dtype": "dtype('float32')",
+              "bounded_below": "array([ True,  True,  True,  True])",
+              "bounded_above": "array([ True,  True,  True,  True])",
+              "_shape": [
+                4
+              ],
+              "low": "array([-1., -1., -1., -1.], dtype=float32)",
+              "high": "array([1., 1., 1., 1.], dtype=float32)",
+              "low_repr": "-1.0",
+              "high_repr": "1.0",
+              "_np_random": "None",
+              "$type": "akro.box.Box"
+            },
+            "$type": "garage._environment.EnvSpec"
+          },
+          "_name": "TanhGaussianPolicy",
+          "_obs_dim": 4.0,
+          "_action_dim": 2.0,
+          "$type": "garage.torch.policies.tanh_gaussian_mlp_policy.TanhGaussianMLPPolicy"
+        }
+      },
+      "_latent_dim": 2,
+      "_use_information_bottleneck": false,
+      "_use_next_obs": false,
+      "_context": "None",
+      "$type": "garage.torch.policies.cl_context_conditioned_policy.CLContextConditionedPolicy"
+    },
+    "_replay_buffers": {
+      "0": {
+        "_capacity": 1000000,
+        "_env_spec": "None",
+        "_transitions_stored": 0,
+        "_first_idx_of_next_path": 0,
+        "_path_segments": [],
+        "_buffer": {},
+        "$type": "garage.replay_buffer.path_buffer.PathBuffer"
+      },
+      "1": {
+        "_capacity": 1000000,
+        "_env_spec": "None",
+        "_transitions_stored": 0,
+        "_first_idx_of_next_path": 0,
+        "_path_segments": [],
+        "_buffer": {},
+        "$type": "garage.replay_buffer.path_buffer.PathBuffer"
+      },
+      "2": {
+        "_capacity": 1000000,
+        "_env_spec": "None",
+        "_transitions_stored": 0,
+        "_first_idx_of_next_path": 0,
+        "_path_segments": [],
+        "_buffer": {},
+        "$type": "garage.replay_buffer.path_buffer.PathBuffer"
+      },
+      "3": {
+        "_capacity": 1000000,
+        "_env_spec": "None",
+        "_transitions_stored": 0,
+        "_first_idx_of_next_path": 0,
+        "_path_segments": [],
+        "_buffer": {},
+        "$type": "garage.replay_buffer.path_buffer.PathBuffer"
+      }
+    },
+    "_context_replay_buffers": {
+      "0": {
+        "_capacity": 1000000,
+        "_env_spec": "None",
+        "_transitions_stored": 0,
+        "_first_idx_of_next_path": 0,
+        "_path_segments": [],
+        "_buffer": {},
+        "$type": "garage.replay_buffer.path_buffer.PathBuffer"
+      },
+      "1": {
+        "_capacity": 1000000,
+        "_env_spec": "None",
+        "_transitions_stored": 0,
+        "_first_idx_of_next_path": 0,
+        "_path_segments": [],
+        "_buffer": {},
+        "$type": "garage.replay_buffer.path_buffer.PathBuffer"
+      },
+      "2": {
+        "_capacity": 1000000,
+        "_env_spec": "None",
+        "_transitions_stored": 0,
+        "_first_idx_of_next_path": 0,
+        "_path_segments": [],
+        "_buffer": {},
+        "$type": "garage.replay_buffer.path_buffer.PathBuffer"
+      },
+      "3": {
+        "_capacity": 1000000,
+        "_env_spec": "None",
+        "_transitions_stored": 0,
+        "_first_idx_of_next_path": 0,
+        "_path_segments": [],
+        "_buffer": {},
+        "$type": "garage.replay_buffer.path_buffer.PathBuffer"
+      }
+    },
+    "target_vf": {
+      "_env_spec": {
+        "max_episode_length": "None",
+        "input_space": {
+          "dtype": "dtype('float32')",
+          "bounded_below": "array([ True,  True])",
+          "bounded_above": "array([ True,  True])",
+          "_shape": [
+            2
+          ],
+          "low": "array([-1., -1.], dtype=float32)",
+          "high": "array([1., 1.], dtype=float32)",
+          "low_repr": "-1.0",
+          "high_repr": "1.0",
+          "_np_random": "None",
+          "$type": "akro.box.Box"
+        },
+        "output_space": {
+          "dtype": "dtype('float32')",
+          "bounded_below": "array([ True,  True])",
+          "bounded_above": "array([ True,  True])",
+          "_shape": [
+            2
+          ],
+          "low": "array([-1., -1.], dtype=float32)",
+          "high": "array([1., 1.], dtype=float32)",
+          "low_repr": "-1.0",
+          "high_repr": "1.0",
+          "_np_random": "None",
+          "$type": "akro.box.Box"
+        },
+        "$type": "garage._environment.EnvSpec"
+      },
+      "_obs_dim": 2.0,
+      "_action_dim": 2.0,
+      "training": true,
+      "_parameters": {},
+      "_buffers": {},
+      "_non_persistent_buffers_set": [],
+      "_backward_pre_hooks": {},
+      "_backward_hooks": {},
+      "_is_full_backward_hook": "None",
+      "_forward_hooks": {},
+      "_forward_hooks_with_kwargs": {},
+      "_forward_hooks_always_called": {},
+      "_forward_pre_hooks": {},
+      "_forward_pre_hooks_with_kwargs": {},
+      "_state_dict_hooks": {},
+      "_state_dict_pre_hooks": {},
+      "_load_state_dict_pre_hooks": {},
+      "_load_state_dict_post_hooks": {},
+      "_modules": {
+        "_layers": {
+          "training": true,
+          "_parameters": {},
+          "_buffers": {},
+          "_non_persistent_buffers_set": [],
+          "_backward_pre_hooks": {},
+          "_backward_hooks": {},
+          "_is_full_backward_hook": "None",
+          "_forward_hooks": {},
+          "_forward_hooks_with_kwargs": {},
+          "_forward_hooks_always_called": {},
+          "_forward_pre_hooks": {},
+          "_forward_pre_hooks_with_kwargs": {},
+          "_state_dict_hooks": {},
+          "_state_dict_pre_hooks": {},
+          "_load_state_dict_pre_hooks": {},
+          "_load_state_dict_post_hooks": {},
+          "_modules": {
+            "0": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 4.0,
+                  "out_features": 256,
+                  "$type": "torch.nn.modules.linear.Linear"
+                },
+                "non_linearity": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "module": {
+                    "$type": "builtins.function"
+                  },
+                  "$type": "garage.torch._functions.NonLinearity"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            },
+            "1": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 256,
+                  "out_features": 256,
+                  "$type": "torch.nn.modules.linear.Linear"
+                },
+                "non_linearity": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "module": {
+                    "$type": "builtins.function"
+                  },
+                  "$type": "garage.torch._functions.NonLinearity"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            },
+            "2": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 256,
+                  "out_features": 256,
+                  "$type": "torch.nn.modules.linear.Linear"
+                },
+                "non_linearity": {
+                  "training": true,
+                  "_parameters": {},
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "module": {
+                    "$type": "builtins.function"
+                  },
+                  "$type": "garage.torch._functions.NonLinearity"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            }
+          },
+          "$type": "torch.nn.modules.container.ModuleList"
+        },
+        "_output_layers": {
+          "training": true,
+          "_parameters": {},
+          "_buffers": {},
+          "_non_persistent_buffers_set": [],
+          "_backward_pre_hooks": {},
+          "_backward_hooks": {},
+          "_is_full_backward_hook": "None",
+          "_forward_hooks": {},
+          "_forward_hooks_with_kwargs": {},
+          "_forward_hooks_always_called": {},
+          "_forward_pre_hooks": {},
+          "_forward_pre_hooks_with_kwargs": {},
+          "_state_dict_hooks": {},
+          "_state_dict_pre_hooks": {},
+          "_load_state_dict_pre_hooks": {},
+          "_load_state_dict_post_hooks": {},
+          "_modules": {
+            "0": {
+              "training": true,
+              "_parameters": {},
+              "_buffers": {},
+              "_non_persistent_buffers_set": [],
+              "_backward_pre_hooks": {},
+              "_backward_hooks": {},
+              "_is_full_backward_hook": "None",
+              "_forward_hooks": {},
+              "_forward_hooks_with_kwargs": {},
+              "_forward_hooks_always_called": {},
+              "_forward_pre_hooks": {},
+              "_forward_pre_hooks_with_kwargs": {},
+              "_state_dict_hooks": {},
+              "_state_dict_pre_hooks": {},
+              "_load_state_dict_pre_hooks": {},
+              "_load_state_dict_post_hooks": {},
+              "_modules": {
+                "linear": {
+                  "training": true,
+                  "_parameters": {
+                    "weight": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    },
+                    "bias": {
+                      "$type": "torch.nn.parameter.Parameter"
+                    }
+                  },
+                  "_buffers": {},
+                  "_non_persistent_buffers_set": [],
+                  "_backward_pre_hooks": {},
+                  "_backward_hooks": {},
+                  "_is_full_backward_hook": "None",
+                  "_forward_hooks": {},
+                  "_forward_hooks_with_kwargs": {},
+                  "_forward_hooks_always_called": {},
+                  "_forward_pre_hooks": {},
+                  "_forward_pre_hooks_with_kwargs": {},
+                  "_state_dict_hooks": {},
+                  "_state_dict_pre_hooks": {},
+                  "_load_state_dict_pre_hooks": {},
+                  "_load_state_dict_post_hooks": {},
+                  "_modules": {},
+                  "in_features": 256,
+                  "out_features": 1,
+                  "$type": "torch.nn.modules.linear.Linear"
+                }
+              },
+              "$type": "torch.nn.modules.container.Sequential"
+            }
+          },
+          "$type": "torch.nn.modules.container.ModuleList"
+        }
+      },
+      "_output_dim": 1,
+      "$type": "garage.torch.q_functions.continuous_mlp_q_function.ContinuousMLPQFunction"
+    },
+    "vf_criterion": {
+      "training": true,
+      "_parameters": {},
+      "_buffers": {},
+      "_non_persistent_buffers_set": [],
+      "_backward_pre_hooks": {},
+      "_backward_hooks": {},
+      "_is_full_backward_hook": "None",
+      "_forward_hooks": {},
+      "_forward_hooks_with_kwargs": {},
+      "_forward_hooks_always_called": {},
+      "_forward_pre_hooks": {},
+      "_forward_pre_hooks_with_kwargs": {},
+      "_state_dict_hooks": {},
+      "_state_dict_pre_hooks": {},
+      "_load_state_dict_pre_hooks": {},
+      "_load_state_dict_post_hooks": {},
+      "_modules": {},
+      "reduction": "mean",
+      "$type": "torch.nn.modules.loss.MSELoss"
+    },
+    "_policy_optimizer": {
+      "defaults": {
+        "lr": 0.0003,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": "None",
+        "capturable": false,
+        "differentiable": false,
+        "fused": "None"
+      },
+      "_optimizer_step_pre_hooks": {},
+      "_optimizer_step_post_hooks": {},
+      "_optimizer_state_dict_pre_hooks": {},
+      "_optimizer_state_dict_post_hooks": {},
+      "_optimizer_load_state_dict_pre_hooks": {},
+      "_optimizer_load_state_dict_post_hooks": {},
+      "_zero_grad_profile_name": "Optimizer.zero_grad#Adam.zero_grad",
+      "state": {},
+      "param_groups": [
+        {
+          "params": [
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            }
+          ],
+          "lr": 0.0003,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0,
+          "amsgrad": false,
+          "maximize": false,
+          "foreach": "None",
+          "capturable": false,
+          "differentiable": false,
+          "fused": "None"
+        }
+      ],
+      "_warned_capturable_if_run_uncaptured": true,
+      "$type": "torch.optim.adam.Adam"
+    },
+    "qf1_optimizer": {
+      "defaults": {
+        "lr": 0.0003,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": "None",
+        "capturable": false,
+        "differentiable": false,
+        "fused": "None"
+      },
+      "_optimizer_step_pre_hooks": {},
+      "_optimizer_step_post_hooks": {},
+      "_optimizer_state_dict_pre_hooks": {},
+      "_optimizer_state_dict_post_hooks": {},
+      "_optimizer_load_state_dict_pre_hooks": {},
+      "_optimizer_load_state_dict_post_hooks": {},
+      "_zero_grad_profile_name": "Optimizer.zero_grad#Adam.zero_grad",
+      "state": {},
+      "param_groups": [
+        {
+          "params": [
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            }
+          ],
+          "lr": 0.0003,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0,
+          "amsgrad": false,
+          "maximize": false,
+          "foreach": "None",
+          "capturable": false,
+          "differentiable": false,
+          "fused": "None"
+        }
+      ],
+      "_warned_capturable_if_run_uncaptured": true,
+      "$type": "torch.optim.adam.Adam"
+    },
+    "qf2_optimizer": {
+      "defaults": {
+        "lr": 0.0003,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": "None",
+        "capturable": false,
+        "differentiable": false,
+        "fused": "None"
+      },
+      "_optimizer_step_pre_hooks": {},
+      "_optimizer_step_post_hooks": {},
+      "_optimizer_state_dict_pre_hooks": {},
+      "_optimizer_state_dict_post_hooks": {},
+      "_optimizer_load_state_dict_pre_hooks": {},
+      "_optimizer_load_state_dict_post_hooks": {},
+      "_zero_grad_profile_name": "Optimizer.zero_grad#Adam.zero_grad",
+      "state": {},
+      "param_groups": [
+        {
+          "params": [
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            }
+          ],
+          "lr": 0.0003,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0,
+          "amsgrad": false,
+          "maximize": false,
+          "foreach": "None",
+          "capturable": false,
+          "differentiable": false,
+          "fused": "None"
+        }
+      ],
+      "_warned_capturable_if_run_uncaptured": true,
+      "$type": "torch.optim.adam.Adam"
+    },
+    "vf_optimizer": {
+      "defaults": {
+        "lr": 0.0003,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": "None",
+        "capturable": false,
+        "differentiable": false,
+        "fused": "None"
+      },
+      "_optimizer_step_pre_hooks": {},
+      "_optimizer_step_post_hooks": {},
+      "_optimizer_state_dict_pre_hooks": {},
+      "_optimizer_state_dict_post_hooks": {},
+      "_optimizer_load_state_dict_pre_hooks": {},
+      "_optimizer_load_state_dict_post_hooks": {},
+      "_zero_grad_profile_name": "Optimizer.zero_grad#Adam.zero_grad",
+      "state": {},
+      "param_groups": [
+        {
+          "params": [
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            }
+          ],
+          "lr": 0.0003,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0,
+          "amsgrad": false,
+          "maximize": false,
+          "foreach": "None",
+          "capturable": false,
+          "differentiable": false,
+          "fused": "None"
+        }
+      ],
+      "_warned_capturable_if_run_uncaptured": true,
+      "$type": "torch.optim.adam.Adam"
+    },
+    "context_optimizer": {
+      "defaults": {
+        "lr": 0.003,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": "None",
+        "capturable": false,
+        "differentiable": false,
+        "fused": "None"
+      },
+      "_optimizer_step_pre_hooks": {},
+      "_optimizer_step_post_hooks": {},
+      "_optimizer_state_dict_pre_hooks": {},
+      "_optimizer_state_dict_post_hooks": {},
+      "_optimizer_load_state_dict_pre_hooks": {},
+      "_optimizer_load_state_dict_post_hooks": {},
+      "_zero_grad_profile_name": "Optimizer.zero_grad#Adam.zero_grad",
+      "state": {},
+      "param_groups": [
+        {
+          "params": [
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            },
+            {
+              "$type": "torch.nn.parameter.Parameter"
+            }
+          ],
+          "lr": 0.003,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0,
+          "amsgrad": false,
+          "maximize": false,
+          "foreach": "None",
+          "capturable": false,
+          "differentiable": false,
+          "fused": "None"
+        }
+      ],
+      "_warned_capturable_if_run_uncaptured": true,
+      "$type": "torch.optim.adam.Adam"
+    },
+    "$type": "garage.torch.algos.custom.CLMeta.CLMETA"
+  },
+  "_env": {
+    "_env": {
+      "_goal": "array([-0.86713957,  0.49806522])",
+      "_never_done": false,
+      "_arena_size": 5.0,
+      "_sigma_noise": 0.05,
+      "_step_cnt": 0,
+      "_max_episode_length": 100,
+      "_visualize": false,
+      "_point": "array([0., 0.], dtype=float32)",
+      "_task": {
+        "goal": "array([-0.86713957,  0.49806522])"
+      },
+      "_observation_space": {
+        "dtype": "dtype('float32')",
+        "bounded_below": "array([False, False])",
+        "bounded_above": "array([False, False])",
+        "_shape": [
+          2
+        ],
+        "low": "array([-inf, -inf], dtype=float32)",
+        "high": "array([inf, inf], dtype=float32)",
+        "low_repr": "-inf",
+        "high_repr": "inf",
+        "_np_random": "None",
+        "$type": "akro.box.Box"
+      },
+      "_action_space": {
+        "dtype": "dtype('float32')",
+        "bounded_below": "array([ True,  True])",
+        "bounded_above": "array([ True,  True])",
+        "_shape": [
+          2
+        ],
+        "low": "array([-0.1, -0.1], dtype=float32)",
+        "high": "array([0.1, 0.1], dtype=float32)",
+        "low_repr": "-0.1",
+        "high_repr": "0.1",
+        "_np_random": "None",
+        "$type": "akro.box.Box"
+      },
+      "_spec": {
+        "max_episode_length": 100,
+        "input_space": {
+          "dtype": "dtype('float32')",
+          "bounded_below": "array([ True,  True])",
+          "bounded_above": "array([ True,  True])",
+          "_shape": [
+            2
+          ],
+          "low": "array([-0.1, -0.1], dtype=float32)",
+          "high": "array([0.1, 0.1], dtype=float32)",
+          "low_repr": "-0.1",
+          "high_repr": "0.1",
+          "_np_random": "None",
+          "$type": "akro.box.Box"
+        },
+        "output_space": {
+          "dtype": "dtype('float32')",
+          "bounded_below": "array([False, False])",
+          "bounded_above": "array([False, False])",
+          "_shape": [
+            2
+          ],
+          "low": "array([-inf, -inf], dtype=float32)",
+          "high": "array([inf, inf], dtype=float32)",
+          "low_repr": "-inf",
+          "high_repr": "inf",
+          "_np_random": "None",
+          "$type": "akro.box.Box"
+        },
+        "$type": "garage._environment.EnvSpec"
+      },
+      "$type": "garage.envs.point_env.PointEnv"
+    },
+    "_scale_reward": 1.0,
+    "_normalize_obs": false,
+    "_normalize_reward": false,
+    "_expected_action_scale": 1.0,
+    "_flatten_obs": true,
+    "_obs_alpha": 0.001,
+    "_obs_mean": "array([0., 0.])",
+    "_obs_var": "array([1., 1.])",
+    "_reward_alpha": 0.001,
+    "_reward_mean": 0.0,
+    "_reward_var": 1.0,
+    "$type": "garage.envs.normalized_env.NormalizedEnv"
+  },
+  "_sampler": {
+    "_factory": {
+      "n_workers": 1,
+      "_seed": "None",
+      "_max_episode_length": 100,
+      "_worker_class": {
+        "$typename": "garage.torch.algos.pearl.PEARLWorker"
+      },
+      "_worker_args": {},
+      "$type": "garage.sampler.worker_factory.WorkerFactory"
+    },
+    "_agents": [
+      "None"
+    ],
+    "_envs": [
+      {
+        "_env": {
+          "_goal": "array([-0.86713957,  0.49806522])",
+          "_never_done": false,
+          "_arena_size": 5.0,
+          "_sigma_noise": 0.05,
+          "_step_cnt": 0,
+          "_max_episode_length": 100,
+          "_visualize": false,
+          "_point": "array([0., 0.], dtype=float32)",
+          "_task": {
+            "goal": "array([-0.86713957,  0.49806522])"
+          },
+          "_observation_space": {
+            "dtype": "dtype('float32')",
+            "bounded_below": "array([False, False])",
+            "bounded_above": "array([False, False])",
+            "_shape": [
+              2
+            ],
+            "low": "array([-inf, -inf], dtype=float32)",
+            "high": "array([inf, inf], dtype=float32)",
+            "low_repr": "-inf",
+            "high_repr": "inf",
+            "_np_random": "None",
+            "$type": "akro.box.Box"
+          },
+          "_action_space": {
+            "dtype": "dtype('float32')",
+            "bounded_below": "array([ True,  True])",
+            "bounded_above": "array([ True,  True])",
+            "_shape": [
+              2
+            ],
+            "low": "array([-0.1, -0.1], dtype=float32)",
+            "high": "array([0.1, 0.1], dtype=float32)",
+            "low_repr": "-0.1",
+            "high_repr": "0.1",
+            "_np_random": "None",
+            "$type": "akro.box.Box"
+          },
+          "_spec": {
+            "max_episode_length": 100,
+            "input_space": {
+              "dtype": "dtype('float32')",
+              "bounded_below": "array([ True,  True])",
+              "bounded_above": "array([ True,  True])",
+              "_shape": [
+                2
+              ],
+              "low": "array([-0.1, -0.1], dtype=float32)",
+              "high": "array([0.1, 0.1], dtype=float32)",
+              "low_repr": "-0.1",
+              "high_repr": "0.1",
+              "_np_random": "None",
+              "$type": "akro.box.Box"
+            },
+            "output_space": {
+              "dtype": "dtype('float32')",
+              "bounded_below": "array([False, False])",
+              "bounded_above": "array([False, False])",
+              "_shape": [
+                2
+              ],
+              "low": "array([-inf, -inf], dtype=float32)",
+              "high": "array([inf, inf], dtype=float32)",
+              "low_repr": "-inf",
+              "high_repr": "inf",
+              "_np_random": "None",
+              "$type": "akro.box.Box"
+            },
+            "$type": "garage._environment.EnvSpec"
+          },
+          "$type": "garage.envs.point_env.PointEnv"
+        },
+        "_scale_reward": 1.0,
+        "_normalize_obs": false,
+        "_normalize_reward": false,
+        "_expected_action_scale": 1.0,
+        "_flatten_obs": true,
+        "_obs_alpha": 0.001,
+        "_obs_mean": "array([0., 0.])",
+        "_obs_var": "array([1., 1.])",
+        "_reward_alpha": 0.001,
+        "_reward_mean": 0.0,
+        "_reward_var": 1.0,
+        "$type": "garage.envs.normalized_env.NormalizedEnv"
+      }
+    ],
+    "_workers": [
+      {
+        "_deterministic": false,
+        "_accum_context": false,
+        "_episode_info": "None",
+        "_seed": "None",
+        "_max_episode_length": 100,
+        "_worker_number": 0,
+        "agent": "None",
+        "env": {
+          "_env": {
+            "_goal": "array([-0.86713957,  0.49806522])",
+            "_never_done": false,
+            "_arena_size": 5.0,
+            "_sigma_noise": 0.05,
+            "_step_cnt": 0,
+            "_max_episode_length": 100,
+            "_visualize": false,
+            "_point": "array([0., 0.], dtype=float32)",
+            "_task": {
+              "goal": "array([-0.86713957,  0.49806522])"
+            },
+            "_observation_space": {
+              "dtype": "dtype('float32')",
+              "bounded_below": "array([False, False])",
+              "bounded_above": "array([False, False])",
+              "_shape": [
+                2
+              ],
+              "low": "array([-inf, -inf], dtype=float32)",
+              "high": "array([inf, inf], dtype=float32)",
+              "low_repr": "-inf",
+              "high_repr": "inf",
+              "_np_random": "None",
+              "$type": "akro.box.Box"
+            },
+            "_action_space": {
+              "dtype": "dtype('float32')",
+              "bounded_below": "array([ True,  True])",
+              "bounded_above": "array([ True,  True])",
+              "_shape": [
+                2
+              ],
+              "low": "array([-0.1, -0.1], dtype=float32)",
+              "high": "array([0.1, 0.1], dtype=float32)",
+              "low_repr": "-0.1",
+              "high_repr": "0.1",
+              "_np_random": "None",
+              "$type": "akro.box.Box"
+            },
+            "_spec": {
+              "max_episode_length": 100,
+              "input_space": {
+                "dtype": "dtype('float32')",
+                "bounded_below": "array([ True,  True])",
+                "bounded_above": "array([ True,  True])",
+                "_shape": [
+                  2
+                ],
+                "low": "array([-0.1, -0.1], dtype=float32)",
+                "high": "array([0.1, 0.1], dtype=float32)",
+                "low_repr": "-0.1",
+                "high_repr": "0.1",
+                "_np_random": "None",
+                "$type": "akro.box.Box"
+              },
+              "output_space": {
+                "dtype": "dtype('float32')",
+                "bounded_below": "array([False, False])",
+                "bounded_above": "array([False, False])",
+                "_shape": [
+                  2
+                ],
+                "low": "array([-inf, -inf], dtype=float32)",
+                "high": "array([inf, inf], dtype=float32)",
+                "low_repr": "-inf",
+                "high_repr": "inf",
+                "_np_random": "None",
+                "$type": "akro.box.Box"
+              },
+              "$type": "garage._environment.EnvSpec"
+            },
+            "$type": "garage.envs.point_env.PointEnv"
+          },
+          "_scale_reward": 1.0,
+          "_normalize_obs": false,
+          "_normalize_reward": false,
+          "_expected_action_scale": 1.0,
+          "_flatten_obs": true,
+          "_obs_alpha": 0.001,
+          "_obs_mean": "array([0., 0.])",
+          "_obs_var": "array([1., 1.])",
+          "_reward_alpha": 0.001,
+          "_reward_mean": 0.0,
+          "_reward_var": 1.0,
+          "$type": "garage.envs.normalized_env.NormalizedEnv"
+        },
+        "_env_steps": [],
+        "_observations": [],
+        "_last_observations": [],
+        "_agent_infos": {},
+        "_lengths": [],
+        "_prev_obs": "None",
+        "_eps_length": 0,
+        "_episode_infos": {},
+        "$type": "garage.torch.algos.pearl.PEARLWorker"
+      }
+    ],
+    "total_env_steps": 0,
+    "$type": "garage.sampler.local_sampler.LocalSampler"
+  },
+  "_plotter": "None",
+  "_start_time": "None",
+  "_itr_start_time": "None",
+  "step_itr": "None",
+  "step_episode": "None",
+  "enable_logging": true,
+  "_n_workers": "None",
+  "_worker_class": "None",
+  "_worker_args": "None",
+  "$type": "garage.trainer.Trainer"
+}

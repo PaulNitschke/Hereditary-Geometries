@@ -1,0 +1,155 @@
+2025-09-19 10:37:42 | [CL_point_env] Logging to /Users/paulnitschke/Desktop/projects/geo_meta_rl/data/local/experiment/CL_point_env_2
+2025-09-19 10:37:43 | [CL_point_env] Obtaining samples...
+2025-09-19 10:37:47 | [CL_point_env] epoch #0 | Pre-Training Encoder...
+2025-09-19 10:44:42 | [CL_point_env] epoch #0 | Pre-Training Encoder Done after 250 steps...
+2025-09-19 10:44:43 | [CL_point_env] epoch #0 | Training...
+2025-09-19 10:51:27 | [CL_point_env] epoch #0 | Evaluating...
+2025-09-19 10:51:27 | [CL_point_env] epoch #0 | Sampling for adapation and meta-testing...
+2025-09-19 10:51:29 | [CL_point_env] epoch #0 | Finished meta-testing...
+2025-09-19 10:51:31 | [CL_point_env] epoch #0 | Sampling for adapation and meta-testing...
+2025-09-19 10:51:34 | [CL_point_env] epoch #0 | Finished meta-testing...
+2025-09-19 10:51:36 | [CL_point_env] epoch #0 | Saving snapshot...
+2025-09-19 10:51:36 | [CL_point_env] epoch #0 | Saved
+2025-09-19 10:51:36 | [CL_point_env] epoch #0 | Time 832.51 s
+2025-09-19 10:51:36 | [CL_point_env] epoch #0 | EpochTime 832.51 s
+--------------------------------------------------------  -----------
+EvaluationTest/Average/AverageDiscountedReturn             -61.9206
+EvaluationTest/Average/AverageReturn                       -61.9206
+EvaluationTest/Average/Iteration                             0
+EvaluationTest/Average/MaxReturn                           -25.5741
+EvaluationTest/Average/MinReturn                           -97.0205
+EvaluationTest/Average/NumEpisodes                           7
+EvaluationTest/Average/StdReturn                            23.5966
+EvaluationTest/Average/SuccessRate                           0.428571
+EvaluationTest/Average/TerminationRate                       0.428571
+EvaluationTest/__unnamed_task__/AverageDiscountedReturn    -61.9206
+EvaluationTest/__unnamed_task__/AverageReturn              -61.9206
+EvaluationTest/__unnamed_task__/Iteration                    0
+EvaluationTest/__unnamed_task__/MaxReturn                  -25.5741
+EvaluationTest/__unnamed_task__/MinReturn                  -97.0205
+EvaluationTest/__unnamed_task__/NumEpisodes                  7
+EvaluationTest/__unnamed_task__/StdReturn                   23.5966
+EvaluationTest/__unnamed_task__/SuccessRate                  0.428571
+EvaluationTest/__unnamed_task__/TerminationRate              0.428571
+EvaluationTrain/Average/AverageDiscountedReturn            -43.9803
+EvaluationTrain/Average/AverageReturn                      -43.9803
+EvaluationTrain/Average/Iteration                            0
+EvaluationTrain/Average/MaxReturn                           -6.79664
+EvaluationTrain/Average/MinReturn                          -75.284
+EvaluationTrain/Average/NumEpisodes                          7
+EvaluationTrain/Average/StdReturn                           25.6508
+EvaluationTrain/Average/SuccessRate                          0.571429
+EvaluationTrain/Average/TerminationRate                      0.571429
+EvaluationTrain/__unnamed_task__/AverageDiscountedReturn   -43.9803
+EvaluationTrain/__unnamed_task__/AverageReturn             -43.9803
+EvaluationTrain/__unnamed_task__/Iteration                   0
+EvaluationTrain/__unnamed_task__/MaxReturn                  -6.79664
+EvaluationTrain/__unnamed_task__/MinReturn                 -75.284
+EvaluationTrain/__unnamed_task__/NumEpisodes                 7
+EvaluationTrain/__unnamed_task__/StdReturn                  25.6508
+EvaluationTrain/__unnamed_task__/SuccessRate                 0.571429
+EvaluationTrain/__unnamed_task__/TerminationRate             0.571429
+TotalEnvSteps                                             9641
+--------------------------------------------------------  -----------
+2025-09-19 10:51:37 | [CL_point_env] epoch #1 | Pre-Training Encoder...
+2025-09-19 10:59:22 | [CL_point_env] epoch #1 | Pre-Training Encoder Done after 250 steps...
+2025-09-19 10:59:22 | [CL_point_env] epoch #1 | Training...
+2025-09-19 11:09:12 | [CL_point_env] epoch #1 | Evaluating...
+2025-09-19 11:09:12 | [CL_point_env] epoch #1 | Sampling for adapation and meta-testing...
+2025-09-19 11:09:13 | [CL_point_env] epoch #1 | Finished meta-testing...
+2025-09-19 11:09:15 | [CL_point_env] epoch #1 | Sampling for adapation and meta-testing...
+2025-09-19 11:09:17 | [CL_point_env] epoch #1 | Finished meta-testing...
+2025-09-19 11:09:19 | [CL_point_env] epoch #1 | Saving snapshot...
+2025-09-19 11:09:19 | [CL_point_env] epoch #1 | Saved
+2025-09-19 11:09:19 | [CL_point_env] epoch #1 | Time 1895.89 s
+2025-09-19 11:09:19 | [CL_point_env] epoch #1 | EpochTime 1063.36 s
+--------------------------------------------------------  ------------
+EvaluationTest/Average/AverageDiscountedReturn              -40.2919
+EvaluationTest/Average/AverageReturn                        -40.2919
+EvaluationTest/Average/Iteration                              1
+EvaluationTest/Average/MaxReturn                            -10.4513
+EvaluationTest/Average/MinReturn                            -95.1283
+EvaluationTest/Average/NumEpisodes                            8
+EvaluationTest/Average/StdReturn                             29.2554
+EvaluationTest/Average/SuccessRate                            0.625
+EvaluationTest/Average/TerminationRate                        0.625
+EvaluationTest/__unnamed_task__/AverageDiscountedReturn     -40.2919
+EvaluationTest/__unnamed_task__/AverageReturn               -40.2919
+EvaluationTest/__unnamed_task__/Iteration                     1
+EvaluationTest/__unnamed_task__/MaxReturn                   -10.4513
+EvaluationTest/__unnamed_task__/MinReturn                   -95.1283
+EvaluationTest/__unnamed_task__/NumEpisodes                   8
+EvaluationTest/__unnamed_task__/StdReturn                    29.2554
+EvaluationTest/__unnamed_task__/SuccessRate                   0.625
+EvaluationTest/__unnamed_task__/TerminationRate               0.625
+EvaluationTrain/Average/AverageDiscountedReturn             -25.6701
+EvaluationTrain/Average/AverageReturn                       -25.6701
+EvaluationTrain/Average/Iteration                             1
+EvaluationTrain/Average/MaxReturn                            -8.81715
+EvaluationTrain/Average/MinReturn                           -71.3655
+EvaluationTrain/Average/NumEpisodes                           9
+EvaluationTrain/Average/StdReturn                            21.207
+EvaluationTrain/Average/SuccessRate                           0.777778
+EvaluationTrain/Average/TerminationRate                       0.777778
+EvaluationTrain/__unnamed_task__/AverageDiscountedReturn    -25.6701
+EvaluationTrain/__unnamed_task__/AverageReturn              -25.6701
+EvaluationTrain/__unnamed_task__/Iteration                    1
+EvaluationTrain/__unnamed_task__/MaxReturn                   -8.81715
+EvaluationTrain/__unnamed_task__/MinReturn                  -71.3655
+EvaluationTrain/__unnamed_task__/NumEpisodes                  9
+EvaluationTrain/__unnamed_task__/StdReturn                   21.207
+EvaluationTrain/__unnamed_task__/SuccessRate                  0.777778
+EvaluationTrain/__unnamed_task__/TerminationRate              0.777778
+TotalEnvSteps                                             14374
+--------------------------------------------------------  ------------
+2025-09-19 11:09:21 | [CL_point_env] epoch #2 | Pre-Training Encoder...
+2025-09-19 11:16:49 | [CL_point_env] epoch #2 | Pre-Training Encoder Done after 250 steps...
+2025-09-19 11:16:49 | [CL_point_env] epoch #2 | Training...
+2025-09-19 11:21:48 | [CL_point_env] epoch #2 | Evaluating...
+2025-09-19 11:21:48 | [CL_point_env] epoch #2 | Sampling for adapation and meta-testing...
+2025-09-19 11:21:50 | [CL_point_env] epoch #2 | Finished meta-testing...
+2025-09-19 11:21:51 | [CL_point_env] epoch #2 | Sampling for adapation and meta-testing...
+2025-09-19 11:21:53 | [CL_point_env] epoch #2 | Finished meta-testing...
+2025-09-19 11:21:55 | [CL_point_env] epoch #2 | Saving snapshot...
+2025-09-19 11:21:55 | [CL_point_env] epoch #2 | Saved
+2025-09-19 11:21:55 | [CL_point_env] epoch #2 | Time 2652.03 s
+2025-09-19 11:21:55 | [CL_point_env] epoch #2 | EpochTime 756.13 s
+--------------------------------------------------------  -----------
+EvaluationTest/Average/AverageDiscountedReturn              -27.9884
+EvaluationTest/Average/AverageReturn                        -27.9884
+EvaluationTest/Average/Iteration                              2
+EvaluationTest/Average/MaxReturn                             -6.37465
+EvaluationTest/Average/MinReturn                            -67.5299
+EvaluationTest/Average/NumEpisodes                           10
+EvaluationTest/Average/StdReturn                             23.9829
+EvaluationTest/Average/SuccessRate                            0.7
+EvaluationTest/Average/TerminationRate                        0.7
+EvaluationTest/__unnamed_task__/AverageDiscountedReturn     -27.9884
+EvaluationTest/__unnamed_task__/AverageReturn               -27.9884
+EvaluationTest/__unnamed_task__/Iteration                     2
+EvaluationTest/__unnamed_task__/MaxReturn                    -6.37465
+EvaluationTest/__unnamed_task__/MinReturn                   -67.5299
+EvaluationTest/__unnamed_task__/NumEpisodes                  10
+EvaluationTest/__unnamed_task__/StdReturn                    23.9829
+EvaluationTest/__unnamed_task__/SuccessRate                   0.7
+EvaluationTest/__unnamed_task__/TerminationRate               0.7
+EvaluationTrain/Average/AverageDiscountedReturn             -11.1019
+EvaluationTrain/Average/AverageReturn                       -11.1019
+EvaluationTrain/Average/Iteration                             2
+EvaluationTrain/Average/MaxReturn                            -4.7628
+EvaluationTrain/Average/MinReturn                           -24.0809
+EvaluationTrain/Average/NumEpisodes                          18
+EvaluationTrain/Average/StdReturn                             4.13839
+EvaluationTrain/Average/SuccessRate                           1
+EvaluationTrain/Average/TerminationRate                       1
+EvaluationTrain/__unnamed_task__/AverageDiscountedReturn    -11.1019
+EvaluationTrain/__unnamed_task__/AverageReturn              -11.1019
+EvaluationTrain/__unnamed_task__/Iteration                    2
+EvaluationTrain/__unnamed_task__/MaxReturn                   -4.7628
+EvaluationTrain/__unnamed_task__/MinReturn                  -24.0809
+EvaluationTrain/__unnamed_task__/NumEpisodes                 18
+EvaluationTrain/__unnamed_task__/StdReturn                    4.13839
+EvaluationTrain/__unnamed_task__/SuccessRate                  1
+EvaluationTrain/__unnamed_task__/TerminationRate              1
+TotalEnvSteps                                             19116
+--------------------------------------------------------  -----------
