@@ -3,7 +3,7 @@
 Welcome to the codebase of *Hereditary Geometric Meta-RL:
 Nonlocal Generalization via Task Symmetries* by Paul Nitschke and Shahriar Talebi, presented at the American Control Conference 2026!
 
-The manuscript can be found here: TODO add link.
+The manuscript can be found 🔗 [here](https://arxiv.org/pdf/2603.00396).
 
 ## Setup
 
